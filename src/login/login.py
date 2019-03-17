@@ -3,8 +3,8 @@ from common.utils.openApp import openAppUtil
 
 import warnings
 import unittest
-import HTMLTestRunner
 import time
+from config import HTMLTestRunner
 
 
 class LoginTest(unittest.TestCase):
@@ -56,11 +56,11 @@ if __name__ == '__main__':
     #设置测试报告保存路径
     file_path = '/Users/app/Documents/autoTest/TestReport/'
     #获取系统当前时间
-    now = time.strftime("%Y-%m-%d %H_%M_%S", time.localtime())
+    now = time.strftime("%Y%m%d%H%M%S", time.localtime())
     #设置报告文件名称
-    report_name = file_path + now + "Login_test_Report.html"
+    report_name = file_path + now + " LoginTestReport.html"
 
     fp = open(report_name, 'wb')
-    runner = HTMLTestRunner.HTMLTestRunner(stream=fp, title='login_report', description='report_description')
+    runner = HTMLTestRunner.HTMLTestRunner(stream=fp, title='自动化测试报告-登录', tester='PY', description='')
     runner.run(suite)
     fp.close()
