@@ -1,11 +1,12 @@
 #!/usr/bin/env python 
 # coding:utf-8
-import time
+
 import warnings
 import unittest
 from config.config import DriverClient
 from common.utils.openApp import openAppUtil
 from common.utils.login import loginUtil
+from common.utils.call import callUtil
 
 
 class CallTest(unittest.TestCase):
@@ -14,23 +15,15 @@ class CallTest(unittest.TestCase):
         warnings.simplefilter("ignore", ResourceWarning)
         self.driver = DriverClient().getDriver()
 
-    def call(self, username, calltype):
-        print(username)
-        print(calltype)
-        time.sleep(35)
-        self.driver.find_element_by_xpath("//*[@text='"+username+"'][1]").click()
-        self.driver.find_element_by_id('com.jiahe.gzb:id/tab_call_imageview').click()
-        time.sleep(1)
-        self.driver.find_element_by_xpath("//*[@text='"+calltype+"'][1]").click()
-        time.sleep(10)
-        self.driver.find_element_by_id('com.jiahe.gzb:id/hangup_btn').click()
-
-    def test_call(self):
+    def test_0_call(self):
         openAppUtil.openapp(self.driver)
         loginUtil.login(self.driver)
 
-    def test_call0(self):
-        self.call('乙1', '网络通话')
+    def test_1_call(self):
+        callUtil.call(self.driver, '颖1', '网络通话')
+
+    def test_2_callPhone(self):
+        callUtil.callPhone(self.driver, 13631230850)
 
     def tearDown(self):
         print('test fished')

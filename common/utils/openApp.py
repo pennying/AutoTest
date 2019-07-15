@@ -1,8 +1,3 @@
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.common.exceptions import NoSuchElementException
-from common.utils.adbUtils import adbUtils
-
-
 class OpenAppUtil(object):
     def openapp(self, driver):
         driver.implicitly_wait(30)
@@ -15,14 +10,6 @@ class OpenAppUtil(object):
 
         # 点击启动页
         # driver.find_element_by_class_name('android.widget.TextView').click()
-
-        # 输入识别码
-        WebDriverWait(driver, 20, 0.5, NoSuchElementException).until(
-            lambda x: x.find_element_by_id('com.jiahe.gzb:id/corp_code_edit'))
-        adbUtils.input(driver, 'com.jiahe.gzb:id/corp_code_edit', 'jmgzb')
-        driver.find_element_by_id('com.jiahe.gzb:id/next_step_btn').click()
-        driver.implicitly_wait(30)
-        print('识别码OK')
 
 
 openAppUtil = OpenAppUtil()

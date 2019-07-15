@@ -1,4 +1,4 @@
-from selenium import webdriver
+from appium import webdriver
 
 class Singleton(object):
     def __new__(cls, *args, **kw):
@@ -7,9 +7,9 @@ class Singleton(object):
             desired_caps = dict()
             desired_caps['platformName'] = 'Android'
             desired_caps['platformVersion'] = '9'
-            desired_caps['deviceName'] = 'SJE0217317012319'
-            # desired_caps['deviceName'] = 'SJE7N17706000615'
+            # desired_caps['deviceName'] = 'SJE0217317012319'
             desired_caps['automationName'] = 'uiautomator2'
+            desired_caps['deviceName'] = 'SJE7N17706000615'
             desired_caps['appPackage'] = 'com.jiahe.gzb'
             desired_caps['appActivity'] = 'com.jiahe.gzb.ui.activity.SplashActivity'
             desired_caps['appWaitActivity'] = 'com.jiahe.gzb.ui.activity.SplashActivity'
@@ -22,7 +22,7 @@ class Singleton(object):
         return cls._instance
 
 
-class DriverClient(Singleton):
+class AppiumDriverClient(Singleton):
 
     def getDriver(self):
         return self.driver
