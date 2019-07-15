@@ -83,7 +83,7 @@ class ChatTest(unittest.TestCase):
 
     def test_11_newGroup(self):
         groupUtil.newGroup(self.driver, '潘颖_测试企业2', '潘颖_部门1', ['颖1', '颖2'])
-        print('创建群组成功！！')
+        print('创建群组成功！')
 
     def tearDown(self):
         print('test fished')
