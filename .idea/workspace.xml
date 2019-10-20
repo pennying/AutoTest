@@ -2,36 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a514c5a6-e170-4ce2-aa6d-4d713da6eb2d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/app.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/utils/confrence.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/utils/copyMsg.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/utils/gettoken.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/utils/multiSelected.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/utils/receiveMsgByhttp.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/utils/removeMsg.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/utils/uploadFile.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/xmpp/custom.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/xmpp/sleek.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/xmpp/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/file.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/get.dms" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/confrence/conf.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/gobalvar.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/gobalvar.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/utils/adbUtils.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/utils/adbUtils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/utils/call.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/utils/call.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/utils/chat.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/utils/chat.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/utils/group.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/utils/group.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/utils/openApp.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/utils/openApp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/utils/recall.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/utils/recall.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/utils/relay.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/utils/relay.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/utils/report.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/utils/report.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/appiumConfig.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/appiumConfig.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/seleniumConfig.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/call/call.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/call/call.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chat/chat.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/chat/chat.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chat/group.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/chat/group.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/checklist/checkList.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/checklist/checkList.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/login/login.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/login/login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/seleniumConfig.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/seleniumConfig.py" afterDir="false" />
     </list>
     <ignored path="venv/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,47 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/xmpp/utils.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/seleniumConfig.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="12" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/checklist/checkList.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="735">
-              <caret line="49" column="56" lean-forward="true" selection-start-line="49" selection-start-column="56" selection-end-line="49" selection-end-column="56" />
-              <folding>
-                <element signature="e#38#84#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/xmpp/custom.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-206">
-              <caret line="41" column="58" selection-start-line="41" selection-start-column="58" selection-end-line="41" selection-end-column="58" />
-              <folding>
-                <element signature="e#222#232#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/xmpp/sleek.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="45" column="66" lean-forward="true" selection-start-line="45" selection-start-column="66" selection-end-line="45" selection-end-column="66" />
-              <folding>
-                <element signature="e#0#14#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="179">
+              <caret line="12" column="56" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -93,17 +31,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/appiumConfig.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
-              <caret line="11" column="59" lean-forward="true" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
+            <state relative-caret-position="128">
+              <caret line="12" column="56" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/config/seleniumConfig.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/utils/openApp.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="56" lean-forward="true" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
+            <state relative-caret-position="135">
+              <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -205,10 +143,10 @@
         <option value="$PROJECT_DIR$/common/xmpp/custom.py" />
         <option value="$PROJECT_DIR$/common/xmpp/sleek.py" />
         <option value="$PROJECT_DIR$/src/chat/chat.py" />
-        <option value="$PROJECT_DIR$/common/utils/openApp.py" />
         <option value="$PROJECT_DIR$/src/checklist/checkList.py" />
         <option value="$PROJECT_DIR$/config/appiumConfig.py" />
         <option value="$PROJECT_DIR$/config/seleniumConfig.py" />
+        <option value="$PROJECT_DIR$/common/utils/openApp.py" />
       </list>
     </option>
   </component>
@@ -224,56 +162,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="GZBAPP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GZBAPP" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GZBAPP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GZBAPP" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GZBAPP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GZBAPP" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GZBAPP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GZBAPP" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="xmpp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GZBAPP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GZBAPP" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GZBAPP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GZBAPP" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GZBAPP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GZBAPP" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="chat" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GZBAPP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GZBAPP" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="checklist" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -522,14 +411,14 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.chat" />
       <item itemvalue="Python.checkList" />
       <item itemvalue="Python.conf" />
-      <item itemvalue="Python.chat" />
       <item itemvalue="Python.login" />
       <item itemvalue="Python.open" />
-      <item itemvalue="Python.xmpp2" />
-      <item itemvalue="Python.sleek" />
       <item itemvalue="Python.sleek2" />
+      <item itemvalue="Python.sleek" />
+      <item itemvalue="Python.xmpp2" />
       <item itemvalue="Python tests.Unittests for xmpp1.SleekTest" />
       <item itemvalue="Python tests.Unittests in xmpp1.py" />
     </list>
@@ -634,7 +523,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="93" y="51" width="1366" height="816" extended-state="0" />
+    <frame x="111" y="51" width="1366" height="816" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" x="796" y="224" width="306" height="551" id="Project" order="0" sideWeight="0.49543378" visible="true" weight="0.1866171" />
       <window_info id="Structure" order="1" sideWeight="0.5034965" side_tool="true" weight="0.16181915" />
@@ -1045,13 +935,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/utils/openApp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common/utils/login.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="56">
@@ -1079,13 +962,6 @@
           <folding>
             <element signature="e#38#84#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/appiumConfig.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="11" column="59" lean-forward="true" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
         </state>
       </provider>
     </entry>
@@ -1176,10 +1052,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/common/utils/openApp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/appiumConfig.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="12" column="56" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/config/seleniumConfig.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="56" lean-forward="true" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
+        <state relative-caret-position="179">
+          <caret line="12" column="56" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
         </state>
       </provider>
     </entry>
