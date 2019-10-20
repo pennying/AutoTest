@@ -465,14 +465,14 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.chat" />
       <item itemvalue="Python.checkList" />
       <item itemvalue="Python.conf" />
+      <item itemvalue="Python.chat" />
       <item itemvalue="Python.login" />
       <item itemvalue="Python.open" />
-      <item itemvalue="Python.sleek2" />
-      <item itemvalue="Python.sleek" />
       <item itemvalue="Python.xmpp2" />
+      <item itemvalue="Python.sleek" />
+      <item itemvalue="Python.sleek2" />
       <item itemvalue="Python tests.Unittests for xmpp1.SleekTest" />
       <item itemvalue="Python tests.Unittests in xmpp1.py" />
     </list>
