@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding:utf-8
 
-from config.config import DriverClient
+from config.seleniumConfig import DriverClient
 
 import time
 import warnings
@@ -24,7 +24,7 @@ class group(unittest.TestCase):
         time.sleep(5)
 
     def test_01_newGroup(self):
-        groupUtil.newGroup(self.driver, '潘颖_测试企业2', '潘颖_部门1', ['颖1', '颖2'])
+        groupUtil.newGroup(self.driver, '潘颖_测试', '潘颖_部门1', ['颖1', '颖2'])
         print('创建群组成功！')
 
     def tearDown(self):

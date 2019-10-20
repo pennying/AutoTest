@@ -31,25 +31,27 @@ class RecallUtil(unittest.TestCase):
         y2 = int(l[1] * 0.25)  # 终点y坐标
         adbUtils.swipe(driver, x1, y1, x1, y2)
 
-    # 撤回文本
+    # 撤回文本成功
     def recall(self, driver):
         time.sleep(5)
 
-        self.swipeDown(driver)
-
         textele = driver.find_elements_by_id('com.jiahe.gzb:id/chat_msg_text')
         textele = textele[-1]
-        adbUtils.longpress1(driver, textele, 3000)
+        adbUtils.longpress1(driver, textele, 1000)
 
         driver.find_elements_by_id('com.jiahe.gzb:id/title')[3].click()
 
         # 验证撤回
         sysmsgarry = driver.find_elements_by_id('com.jiahe.gzb:id/chat_sysmsg_text')
         sysmsg = sysmsgarry[-1]
-        self.assertEqual(sysmsg.text, gobalvar.username+'已撤回一条消息', '撤回失败')
+        self.assertEqual(sysmsg.text, gobalvar.chatuser+'已撤回一条消息', '撤回失败')
         print('撤回成功')
 
-    # 撤回文本
+        driver.find_element_by_id('com.jiahe.gzb:id/chat_reedit').click()
+        driver.find_element_by_id('com.jiahe.gzb:id/et_sendmessage').send_keys(' reedit')
+        driver.find_element_by_id('com.jiahe.gzb:id/btn_send').click()
+
+    # 撤回文本失败
     def recallfail(self, driver):
         time.sleep(5)
 

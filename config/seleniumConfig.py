@@ -1,5 +1,6 @@
 from selenium import webdriver
 
+
 class Singleton(object):
     def __new__(cls, *args, **kw):
         if not hasattr(cls, '_instance'):
@@ -8,11 +9,17 @@ class Singleton(object):
             desired_caps['platformName'] = 'Android'
             desired_caps['platformVersion'] = '9'
             desired_caps['deviceName'] = 'SJE0217317012319'
-            # desired_caps['deviceName'] = 'SJE7N17706000615'
             desired_caps['automationName'] = 'uiautomator2'
             desired_caps['appPackage'] = 'com.jiahe.gzb'
-            desired_caps['appActivity'] = 'com.jiahe.gzb.ui.activity.SplashActivity'
-            desired_caps['appWaitActivity'] = 'com.jiahe.gzb.ui.activity.SplashActivity'
+
+            # 6.9版本
+            # desired_caps['appActivity'] = 'com.jiahe.gzb.ui.activity.SplashActivity'
+            # desired_caps['appWaitActivity'] = 'com.jiahe.gzb.ui.activity.SplashActivity'
+
+            # 7.0版本
+            desired_caps['appActivity'] = 'com.jm.gzb.system.ui.activity.SplashActivity'
+            desired_caps['appWaitActivity'] = 'com.jm.gzb.system.ui.activity.SplashActivity'
+
             desired_caps['sessionOverride'] = True
             desired_caps['unicodeKeyboard'] = True
             desired_caps['resetKeyboard'] = True

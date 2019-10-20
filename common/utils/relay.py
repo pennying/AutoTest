@@ -22,10 +22,10 @@ class RelayUtil(unittest.TestCase):
         adbUtils.swipe(driver, x1, y2, x1, y1)
 
     # 转发文本
-    def relay(self, driver):
+    def relayText(self, driver):
         flag = True
         while flag:
-            time.sleep(2)
+            time.sleep(1)
             try:
                 textele = driver.find_elements_by_id('com.jiahe.gzb:id/chat_msg_text')
 
@@ -34,7 +34,28 @@ class RelayUtil(unittest.TestCase):
                     flag = False
                 else:
                     self.swipeUp(driver)
-            except:
+            finally:
+                print('滑动一次')
+
+        driver.find_elements_by_id('com.jiahe.gzb:id/title')[0].click()
+        driver.find_elements_by_id('com.jiahe.gzb:id/name')[0].click()
+        driver.find_elements_by_id('com.jiahe.gzb:id/name_layout')[0].click()
+        driver.find_element_by_id('com.jiahe.gzb:id/buttonDefaultPositive').click()
+
+    # 转发文件
+    def relayFile(self, driver):
+        flag = True
+        while flag:
+            time.sleep(2)
+            try:
+                fileele = driver.find_elements_by_id('com.jiahe.gzb:id/file_name')
+
+                if len(fileele) > 0:
+                    adbUtils.longpress(driver, 'com.jiahe.gzb:id/file_name', 3000)
+                    flag = False
+                else:
+                    self.swipeUp(driver)
+            finally:
                 print('未找到元素')
 
         driver.find_elements_by_id('com.jiahe.gzb:id/title')[0].click()

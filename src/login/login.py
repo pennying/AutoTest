@@ -1,11 +1,10 @@
-from config.config import DriverClient
+from config.seleniumConfig import DriverClient
 from common.utils.openApp import openAppUtil
-
+from common.utils.adbUtils import adbUtils
+from config import HTMLTestRunner
 import warnings
 import unittest
 import time
-from config import HTMLTestRunner
-from common.utils.adbUtils import adbUtils
 
 
 class LoginTest(unittest.TestCase):

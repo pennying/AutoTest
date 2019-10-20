@@ -19,7 +19,7 @@ class AdbUtils(object):
         args = str(elx) + ' ' + str(ely) + ' ' + str(elx) + ' ' + str(ely) + ' ' + str(ms)
         driver.execute_script('mobile:shell', {'command': 'input touchscreen swipe', 'args': args})
 
-    def swipe(self, driver, x1, y1, x2, y2, ms=1000):
+    def swipe(self, driver, x1, y1, x2, y2, ms=100):
         args = str(x1) + ' ' + str(y1) + ' ' + str(x2) + ' ' + str(y2) + ' ' + str(ms)
         driver.execute_script('mobile:shell', {'command': 'input touchscreen swipe', 'args': args})
 

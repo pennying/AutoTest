@@ -15,6 +15,7 @@ class GroupUtil(object):
             print(name)
             driver.find_element_by_xpath("//*[@text='" + name + "'][1]").click()
         driver.find_element_by_id('com.jiahe.gzb:id/btn_ok').click()
+        driver.find_element_by_id('android:id/icon').click()
 
 
 groupUtil = GroupUtil()

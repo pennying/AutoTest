@@ -2,8 +2,10 @@ import time
 from config import HTMLTestRunner
 import unittest
 
+
 class ReportUtil(object):
-    def reportUtil(self, filename, suite):
+
+    def reportUtil(self, filename, title, suite):
 
         # 设置测试报告保存路径
         file_path = '/Users/app/Documents/autoTest/TestReport/'
@@ -16,7 +18,7 @@ class ReportUtil(object):
 
         fp = open(report_name, 'wb')
         unittest.TextTestRunner(verbosity=2)
-        runner = HTMLTestRunner.HTMLTestRunner(stream=fp, title='自动化测试报告-上线CheckList', tester='PY', description='')
+        runner = HTMLTestRunner.HTMLTestRunner(stream=fp, title=''+title+'', tester='PY', description='')
         runner.run(suite)
         fp.close()
 

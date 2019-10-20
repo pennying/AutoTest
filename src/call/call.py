@@ -3,7 +3,7 @@
 
 import warnings
 import unittest
-from config.config import DriverClient
+from config.seleniumConfig import DriverClient
 from common.utils.openApp import openAppUtil
 from common.utils.login import loginUtil
 from common.utils.call import callUtil

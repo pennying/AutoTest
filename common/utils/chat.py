@@ -5,8 +5,12 @@ import time
 
 class ChatUtil(unittest.TestCase):
 
+    # 打开会话窗
+    def openChat(self, driver, chatObj):
+        driver.find_element_by_xpath("//*[@text='"+chatObj+"'][1]").click()
+
     # 文本
-    def sendText(self, driver, username, message):
+    def sendText(self, driver, message):
 
         # 发送文本
         driver.find_element_by_id('com.jiahe.gzb:id/et_sendmessage').send_keys(message)
@@ -67,13 +71,43 @@ class ChatUtil(unittest.TestCase):
     # 图片
     def sendImage(self, driver, imagearr):
 
-        # 发送图片
+        # 发送图片相册
         driver.find_element_by_id('com.jiahe.gzb:id/btn_more').click()
         driver.find_elements_by_id('com.jiahe.gzb:id/image')[1].click()
+        time.sleep(3)
         ele = driver.find_elements_by_id('com.jiahe.gzb:id/image')
         for x in imagearr:
             ele[x].click()
         driver.find_element_by_id('com.jiahe.gzb:id/commit').click()
+
+        # 验证图片
+        readarry = driver.find_elements_by_id('com.jiahe.gzb:id/tv_unread')
+        lastread = readarry[-1]
+        self.assertEqual(lastread.text, '未读', '发送失败')
+
+        # 拍照发送图片
+        driver.find_elements_by_id('com.jiahe.gzb:id/image')[0].click()
+
+        # 首次安装才需要此权限，覆盖安装不需要
+        tip = driver.find_elements_by_id('com.android.packageinstaller:id/permission_allow_button')
+        if len(tip) > 0:
+            driver.find_element_by_id('com.android.packageinstaller:id/permission_allow_button').click()
+
+        driver.find_element_by_id('com.jiahe.gzb:id/startVideo').click()
+
+        tip = driver.find_elements_by_id('com.android.packageinstaller:id/permission_allow_button')
+        if len(tip) > 0:
+            driver.find_element_by_id('com.android.packageinstaller:id/permission_allow_button').click
+
+        tip = driver.find_elements_by_id('com.jiahe.gzb:id/ok_img')
+        if len(tip) > 0:
+            driver.find_element_by_id('com.jiahe.gzb:id/ok_img').click()
+        else:
+            driver.find_element_by_id('com.jiahe.gzb:id/startVideo').click
+            driver.find_element_by_id('com.jiahe.gzb:id/ok_img').click()
+
+        driver.find_element_by_id('com.jiahe.gzb:id/original_btn').click()
+        driver.find_element_by_id('com.jiahe.gzb:id/button_confirm').click()
 
         # 验证图片
         readarry = driver.find_elements_by_id('com.jiahe.gzb:id/tv_unread')
@@ -96,7 +130,7 @@ class ChatUtil(unittest.TestCase):
         lastread = readarry[-1]
         self.assertEqual(lastread.text, '未读', '发送失败')
 
-    # 语音
+    # 发送语音
     def sendVoice(self, driver):
 
         # 发送语音
@@ -104,11 +138,31 @@ class ChatUtil(unittest.TestCase):
         driver.find_element_by_id('com.jiahe.gzb:id/btn_press_to_speak').click()
         driver.find_element_by_id('com.android.packageinstaller:id/permission_allow_button').click()
         adbUtils.longpress(driver, 'com.jiahe.gzb:id/btn_press_to_speak', 3000)
+        driver.find_element_by_id('com.jiahe.gzb:id/btn_set_mode_keyboard').click()
 
         # 验证语音
         readarry = driver.find_elements_by_id('com.jiahe.gzb:id/tv_unread')
         lastread = readarry[-1]
         self.assertEqual(lastread.text, '未读', '发送失败')
+
+    # 发送小视频
+    def sendVideo(self, driver):
+
+        # 发送小视频
+        driver.find_element_by_id('com.jiahe.gzb:id/btn_more').click()
+        driver.find_elements_by_id('com.jiahe.gzb:id/image')[0].click()
+
+        # 首次安装才需要此权限，覆盖安装不需要
+        tip = driver.find_elements_by_id('com.android.packageinstaller:id/permission_allow_button')
+        if len(tip) > 0:
+            driver.find_element_by_id('com.android.packageinstaller:id/permission_allow_button').click()
+        driver.find_element_by_id('com.jiahe.gzb:id/startVideo').click
+        tip = driver.find_elements_by_id('com.android.packageinstaller:id/permission_allow_button')
+        if len(tip) > 0:
+            driver.find_element_by_id('com.android.packageinstaller:id/permission_allow_button').click
+        adbUtils.longpress(driver, 'com.jiahe.gzb:id/startVideo', 6000)
+        driver.find_element_by_id('com.jiahe.gzb:id/ok_img').click()
+        time.sleep(3)
 
 
 chatUtil = ChatUtil()
