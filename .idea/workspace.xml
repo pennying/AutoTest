@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a514c5a6-e170-4ce2-aa6d-4d713da6eb2d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/app.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/app.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/utils/openApp.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/utils/openApp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/appiumConfig.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/appiumConfig.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/seleniumConfig.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/seleniumConfig.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/gobalvar.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/gobalvar.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/utils/login.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/utils/login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/checklist/checkList.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/checklist/checkList.py" afterDir="false" />
     </list>
     <ignored path="venv/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,29 +20,68 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/config/seleniumConfig.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="12" column="56" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/appiumConfig.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="12" column="56" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/common/utils/openApp.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+            <state relative-caret-position="180">
+              <caret line="12" column="78" lean-forward="true" selection-start-line="12" selection-start-column="78" selection-end-line="12" selection-end-column="78" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/checklist/checkList.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="27" column="12" lean-forward="true" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+              <folding>
+                <element signature="e#38#84#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/utils/login.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="10" column="15" lean-forward="true" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/gobalvar.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/chat/chat.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="35" column="10" lean-forward="true" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
+              <folding>
+                <element signature="e#38#84#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/utils/chat.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" selection-start-line="19" selection-end-line="25" selection-end-column="53" />
+              <folding>
+                <element signature="e#0#42#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -92,6 +132,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="gzb6.9" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -104,7 +149,6 @@
         <option value="$PROJECT_DIR$/common/global.py" />
         <option value="$PROJECT_DIR$/src/call/call.py" />
         <option value="$PROJECT_DIR$/../TestReport/20190715005611 CheckListReport.html" />
-        <option value="$PROJECT_DIR$/common/utils/login.py" />
         <option value="$PROJECT_DIR$/src/chat/newGroup.py" />
         <option value="$PROJECT_DIR$/src/chat/group.py" />
         <option value="$PROJECT_DIR$/common/utils/group.py" />
@@ -124,7 +168,6 @@
         <option value="$PROJECT_DIR$/common/utils/transfFile.py" />
         <option value="$PROJECT_DIR$/common/utils/backup.py" />
         <option value="$PROJECT_DIR$/common/utils/gettoken.py" />
-        <option value="$PROJECT_DIR$/common/gobalvar.py" />
         <option value="$PROJECT_DIR$/common/utils/removeMsg.py" />
         <option value="$PROJECT_DIR$/common/utils/multichoose.py" />
         <option value="$PROJECT_DIR$/common/utils/copyMsg.py" />
@@ -143,16 +186,18 @@
         <option value="$PROJECT_DIR$/common/xmpp/custom.py" />
         <option value="$PROJECT_DIR$/common/xmpp/sleek.py" />
         <option value="$PROJECT_DIR$/src/chat/chat.py" />
-        <option value="$PROJECT_DIR$/src/checklist/checkList.py" />
         <option value="$PROJECT_DIR$/config/appiumConfig.py" />
         <option value="$PROJECT_DIR$/config/seleniumConfig.py" />
         <option value="$PROJECT_DIR$/common/utils/openApp.py" />
+        <option value="$PROJECT_DIR$/common/gobalvar.py" />
+        <option value="$PROJECT_DIR$/common/utils/login.py" />
+        <option value="$PROJECT_DIR$/src/checklist/checkList.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="93" />
-    <option name="y" value="51" />
+    <option name="x" value="231" />
+    <option name="y" value="36" />
     <option name="width" value="1366" />
     <option name="height" value="816" />
   </component>
@@ -162,7 +207,55 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="GZBAPP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GZBAPP" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GZBAPP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GZBAPP" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GZBAPP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GZBAPP" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GZBAPP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GZBAPP" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GZBAPP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GZBAPP" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GZBAPP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GZBAPP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GZBAPP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GZBAPP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="chat" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GZBAPP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GZBAPP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="checklist" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
     </panes>
   </component>
@@ -424,11 +517,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.sleek" />
-        <item itemvalue="Python.sleek2" />
-        <item itemvalue="Python.xmpp2" />
         <item itemvalue="Python tests.Unittests in xmpp1.py" />
         <item itemvalue="Python tests.Unittests for xmpp1.SleekTest" />
+        <item itemvalue="Python.xmpp2" />
+        <item itemvalue="Python.sleek" />
+        <item itemvalue="Python.sleek2" />
       </list>
     </recent_temporary>
   </component>
@@ -523,15 +616,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="111" y="51" width="1366" height="816" extended-state="0" />
+    <frame x="231" y="36" width="1366" height="816" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" x="796" y="224" width="306" height="551" id="Project" order="0" sideWeight="0.49543378" visible="true" weight="0.1866171" />
+      <window_info active="true" content_ui="combo" x="796" y="224" width="306" height="551" id="Project" order="0" sideWeight="0.49543378" visible="true" weight="0.1866171" />
       <window_info id="Structure" order="1" sideWeight="0.5034965" side_tool="true" weight="0.16181915" />
       <window_info id="Favorites" order="2" sideWeight="0.5045662" side_tool="true" weight="0.2639405" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3295325" />
-      <window_info anchor="bottom" x="15" y="347" width="1891" height="322" id="Run" order="2" sideWeight="0.4976203" weight="0.21685083" />
+      <window_info anchor="bottom" x="15" y="347" width="1891" height="322" id="Run" order="2" sideWeight="0.4976203" visible="true" weight="0.21685083" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4997356" weight="0.2177879" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -539,7 +632,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4976203" weight="0.32839224" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32839224" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5023797" side_tool="true" weight="0.36830103" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="10" visible="true" weight="0.32734805" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.31769437" />
       <window_info anchor="bottom" id="Thumbnails" order="11" weight="0.3295325" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -809,16 +902,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/utils/chat.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-11">
-          <caret line="34" column="14" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common/utils/gettoken.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
@@ -928,49 +1011,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/gobalvar.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/utils/login.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/sleekxmpp/basexmpp.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="331">
           <caret line="518" column="36" selection-start-line="518" selection-start-column="36" selection-end-line="518" selection-end-column="36" />
           <folding>
             <element signature="e#312#367#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chat/chat.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-137">
-          <caret line="31" column="36" lean-forward="true" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
-          <folding>
-            <element signature="e#38#84#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/checklist/checkList.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="49" column="56" lean-forward="true" selection-start-line="49" selection-start-column="56" selection-end-line="49" selection-end-column="56" />
-          <folding>
-            <element signature="e#38#84#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1052,24 +1098,71 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/utils/openApp.py">
+    <entry file="file://$PROJECT_DIR$/config/seleniumConfig.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+        <state relative-caret-position="209">
+          <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/appiumConfig.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="12" column="56" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
+        <state relative-caret-position="135">
+          <caret line="9" column="49" lean-forward="true" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/seleniumConfig.py">
+    <entry file="file://$PROJECT_DIR$/common/gobalvar.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="12" column="56" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
+        <state relative-caret-position="105">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/utils/login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="10" column="15" lean-forward="true" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/checklist/checkList.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="12" lean-forward="true" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+          <folding>
+            <element signature="e#38#84#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/utils/openApp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="78" lean-forward="true" selection-start-line="12" selection-start-column="78" selection-end-line="12" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/utils/chat.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" selection-start-line="19" selection-end-line="25" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chat/chat.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="35" column="10" lean-forward="true" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
+          <folding>
+            <element signature="e#38#84#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

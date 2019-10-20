@@ -33,16 +33,16 @@ class CheckTest(unittest.TestCase):
         chatUtil.openChat(self.driver, '颖1')
 
         # 发送英文
-        chatUtil.sendText(self.driver, 'Hello!I have something that want to ask for you.')
+        chatUtil.sendText(self.driver, 'Hello! GZB.')
 
         # 发送中文
-        chatUtil.sendText(self.driver, u'您好！我有一些问题想要向您咨询')
+        chatUtil.sendText(self.driver, u'沟通无远弗届')
 
         # 发送特殊字符
         chatUtil.sendText(self.driver, u'！@＃¥％……&＊（）——＋')
 
         # 发送链接
-        chatUtil.sendText(self.driver, 'www.baidu.com')
+        chatUtil.sendText(self.driver, 'www.mygzb.com')
 
         print('发送消息成功')
 
