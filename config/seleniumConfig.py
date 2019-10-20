@@ -13,12 +13,8 @@ class Singleton(object):
             desired_caps['appPackage'] = 'com.jiahe.gzb'
 
             # 6.9版本
-            # desired_caps['appActivity'] = 'com.jiahe.gzb.ui.activity.SplashActivity'
-            # desired_caps['appWaitActivity'] = 'com.jiahe.gzb.ui.activity.SplashActivity'
-
-            # 7.0版本
-            desired_caps['appActivity'] = 'com.jm.gzb.system.ui.activity.SplashActivity'
-            desired_caps['appWaitActivity'] = 'com.jm.gzb.system.ui.activity.SplashActivity'
+            desired_caps['appActivity'] = 'com.jiahe.gzb.ui.activity.SplashActivity'
+            desired_caps['appWaitActivity'] = 'com.jiahe.gzb.ui.activity.SplashActivity'
 
             desired_caps['sessionOverride'] = True
             desired_caps['unicodeKeyboard'] = True

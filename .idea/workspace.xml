@@ -2,36 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a514c5a6-e170-4ce2-aa6d-4d713da6eb2d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/app.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/utils/confrence.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/utils/copyMsg.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/utils/gettoken.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/utils/multiSelected.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/utils/receiveMsgByhttp.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/utils/removeMsg.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/utils/uploadFile.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/xmpp/custom.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/xmpp/sleek.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/xmpp/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/file.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/get.dms" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/confrence/conf.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/gobalvar.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/gobalvar.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/utils/adbUtils.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/utils/adbUtils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/utils/call.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/utils/call.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/utils/chat.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/utils/chat.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/utils/group.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/utils/group.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/utils/openApp.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/utils/openApp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/utils/recall.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/utils/recall.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/utils/relay.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/utils/relay.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/utils/report.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/utils/report.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/appiumConfig.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/appiumConfig.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/seleniumConfig.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/call/call.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/call/call.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chat/chat.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/chat/chat.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chat/group.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/chat/group.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/checklist/checkList.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/checklist/checkList.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/login/login.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/login/login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/seleniumConfig.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/seleniumConfig.py" afterDir="false" />
     </list>
     <ignored path="venv/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,46 +20,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/xmpp/utils.py">
+        <entry file="file://$PROJECT_DIR$/config/seleniumConfig.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="12" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/checklist/checkList.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="735">
-              <caret line="49" column="56" lean-forward="true" selection-start-line="49" selection-start-column="56" selection-end-line="49" selection-end-column="56" />
-              <folding>
-                <element signature="e#38#84#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/xmpp/custom.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-206">
-              <caret line="41" column="58" selection-start-line="41" selection-start-column="58" selection-end-line="41" selection-end-column="58" />
-              <folding>
-                <element signature="e#222#232#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/xmpp/sleek.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="45" column="66" lean-forward="true" selection-start-line="45" selection-start-column="66" selection-end-line="45" selection-end-column="66" />
-              <folding>
-                <element signature="e#0#14#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="240">
+              <caret line="16" column="12" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -93,17 +31,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/appiumConfig.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
-              <caret line="11" column="59" lean-forward="true" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
+            <state relative-caret-position="173">
+              <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/config/seleniumConfig.py">
+        <entry file="file://$PROJECT_DIR$/common/utils/openApp.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="56" lean-forward="true" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
+            <state relative-caret-position="120">
+              <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -154,6 +92,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="gzb7.1" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -205,10 +148,10 @@
         <option value="$PROJECT_DIR$/common/xmpp/custom.py" />
         <option value="$PROJECT_DIR$/common/xmpp/sleek.py" />
         <option value="$PROJECT_DIR$/src/chat/chat.py" />
-        <option value="$PROJECT_DIR$/common/utils/openApp.py" />
         <option value="$PROJECT_DIR$/src/checklist/checkList.py" />
-        <option value="$PROJECT_DIR$/config/appiumConfig.py" />
         <option value="$PROJECT_DIR$/config/seleniumConfig.py" />
+        <option value="$PROJECT_DIR$/config/appiumConfig.py" />
+        <option value="$PROJECT_DIR$/common/utils/openApp.py" />
       </list>
     </option>
   </component>
@@ -522,24 +465,24 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.chat" />
       <item itemvalue="Python.checkList" />
       <item itemvalue="Python.conf" />
-      <item itemvalue="Python.chat" />
       <item itemvalue="Python.login" />
       <item itemvalue="Python.open" />
-      <item itemvalue="Python.xmpp2" />
-      <item itemvalue="Python.sleek" />
       <item itemvalue="Python.sleek2" />
+      <item itemvalue="Python.sleek" />
+      <item itemvalue="Python.xmpp2" />
       <item itemvalue="Python tests.Unittests for xmpp1.SleekTest" />
       <item itemvalue="Python tests.Unittests in xmpp1.py" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.sleek" />
-        <item itemvalue="Python.sleek2" />
-        <item itemvalue="Python.xmpp2" />
         <item itemvalue="Python tests.Unittests in xmpp1.py" />
         <item itemvalue="Python tests.Unittests for xmpp1.SleekTest" />
+        <item itemvalue="Python.sleek2" />
+        <item itemvalue="Python.sleek" />
+        <item itemvalue="Python.xmpp2" />
       </list>
     </recent_temporary>
   </component>
@@ -589,7 +532,14 @@
       <option name="project" value="LOCAL" />
       <updated>1563206561221</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="7.1">
+      <created>1571548528739</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1571548528740</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -634,7 +584,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="93" y="51" width="1366" height="816" extended-state="0" />
+    <frame x="111" y="51" width="1366" height="816" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" x="796" y="224" width="306" height="551" id="Project" order="0" sideWeight="0.49543378" visible="true" weight="0.1866171" />
       <window_info id="Structure" order="1" sideWeight="0.5034965" side_tool="true" weight="0.16181915" />
@@ -710,7 +661,8 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="* 优化项目目录&#10;* 修改自动化报告样式&#10;* 调整报告标题及增加测试人员属性" />
     <MESSAGE value="新增创建群组用例" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增创建群组用例" />
+    <MESSAGE value="7.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="7.1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1045,13 +997,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/utils/openApp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common/utils/login.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="56">
@@ -1079,13 +1024,6 @@
           <folding>
             <element signature="e#38#84#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/appiumConfig.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="11" column="59" lean-forward="true" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
         </state>
       </provider>
     </entry>
@@ -1178,8 +1116,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/seleniumConfig.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="56" lean-forward="true" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
+        <state relative-caret-position="240">
+          <caret line="16" column="12" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/appiumConfig.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/utils/openApp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
         </state>
       </provider>
     </entry>
