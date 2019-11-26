@@ -11,7 +11,7 @@ class SendMsgByHttpUtil(object):
     # content 发送的消息文本
 
     # 发送文本
-    def sendMsg(self, from_user, to_users, content):
+    def send_msg(self, from_user, to_users, content):
 
         # 获取token
         token = tokenUtil.getToken()
@@ -40,7 +40,7 @@ class SendMsgByHttpUtil(object):
         return response
 
     # 发送大表情
-    def sendEmoji(self, from_user, to_users, content):
+    def send_emoji(self, from_user, to_users, content):
 
         # 获取token
         token = tokenUtil.getToken()
@@ -71,7 +71,7 @@ class SendMsgByHttpUtil(object):
         return response
 
     # 发送图片
-    def sendPic(self, from_user, to_users):
+    def send_pic(self, from_user, to_users):
 
         # 获取token
         token = tokenUtil.getToken()
@@ -102,7 +102,7 @@ class SendMsgByHttpUtil(object):
         return response
 
     # 发送文件
-    def sendFile(self, from_user, to_users):
+    def send_file(self, from_user, to_users):
 
         # 获取token
         token = tokenUtil.getToken()
@@ -133,7 +133,7 @@ class SendMsgByHttpUtil(object):
         return response
 
     # 发送语音
-    def sendVoice(self, from_user, to_users):
+    def send_voice(self, from_user, to_users):
 
         # 获取token
         token = tokenUtil.getToken()
@@ -166,7 +166,7 @@ class SendMsgByHttpUtil(object):
         return response
 
     # 发送小视频
-    def sendshortvideo(self, from_user, to_users):
+    def send_short_video(self, from_user, to_users):
 
         # 获取token
         token = tokenUtil.getToken()

@@ -22,28 +22,31 @@ class RelayUtil(unittest.TestCase):
         adbUtils.swipe(driver, x1, y2, x1, y1)
 
     # 转发文本
-    def relayText(self, driver):
+    def relay_text(self, driver, team, department, members):
         flag = True
         while flag:
             time.sleep(1)
             try:
-                textele = driver.find_elements_by_id('com.jiahe.gzb:id/chat_msg_text')
+                textele = driver.find_elements_by_id('com.jiahe.gzb:id/tv_content')
 
                 if len(textele) > 0:
-                    adbUtils.longpress(driver, 'com.jiahe.gzb:id/chat_msg_text', 3000)
+                    adbUtils.longpress(driver, 'com.jiahe.gzb:id/tv_content', 3000)
                     flag = False
                 else:
                     self.swipeUp(driver)
             finally:
                 print('滑动一次')
 
-        driver.find_elements_by_id('com.jiahe.gzb:id/title')[0].click()
-        driver.find_elements_by_id('com.jiahe.gzb:id/name')[0].click()
-        driver.find_elements_by_id('com.jiahe.gzb:id/name_layout')[0].click()
-        driver.find_element_by_id('com.jiahe.gzb:id/buttonDefaultPositive').click()
+        driver.find_elements_by_id('com.jiahe.gzb:id/md_title')[0].click()
+        driver.find_element_by_xpath("//*[@text='" + team + "'][1]").click()
+        driver.find_element_by_xpath("//*[@text='" + department + "'][1]").click()
+        for name in members:
+            driver.find_element_by_xpath("//*[@text='" + name + "'][1]").click()
+        driver.find_element_by_id('com.jiahe.gzb:id/btnOk').click()
+        driver.find_element_by_id('com.jiahe.gzb:id/md_buttonDefaultPositive').click()
 
     # 转发文件
-    def relayFile(self, driver):
+    def relay_file(self, driver, team, department, members):
         flag = True
         while flag:
             time.sleep(2)
@@ -58,10 +61,13 @@ class RelayUtil(unittest.TestCase):
             finally:
                 print('未找到元素')
 
-        driver.find_elements_by_id('com.jiahe.gzb:id/title')[0].click()
-        driver.find_elements_by_id('com.jiahe.gzb:id/name')[0].click()
-        driver.find_elements_by_id('com.jiahe.gzb:id/name_layout')[0].click()
-        driver.find_element_by_id('com.jiahe.gzb:id/buttonDefaultPositive').click()
+        driver.find_elements_by_id('com.jiahe.gzb:id/md_title')[0].click()
+        driver.find_element_by_xpath("//*[@text='" + team + "'][1]").click()
+        driver.find_element_by_xpath("//*[@text='" + department + "'][1]").click()
+        for name in members:
+            driver.find_element_by_xpath("//*[@text='" + name + "'][1]").click()
+        driver.find_element_by_id('com.jiahe.gzb:id/btnOk').click()
+        driver.find_element_by_id('com.jiahe.gzb:id/md_buttonDefaultPositive').click()
 
 
 relayUtil = RelayUtil()

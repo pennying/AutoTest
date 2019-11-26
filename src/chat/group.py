@@ -29,7 +29,6 @@ class group(unittest.TestCase):
 
     def tearDown(self):
         print('test fished')
-        self.driver.quit()
 
 
 if __name__ == '__main__':

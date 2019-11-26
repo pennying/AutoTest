@@ -8,7 +8,7 @@ The simplest way to use this is to invoke its main method. E.g.
     import unittest
     import HTMLTestRunner
 
-    ... define your tests ...
+    ... define your test ...
 
     if __name__ == '__main__':
         HTMLTestRunner.main()
@@ -747,7 +747,7 @@ class HTMLTestRunner(Template_mixin):
 
 
 ##############################################################################
-# Facilities for running tests from the command line
+# Facilities for running test from the command line
 ##############################################################################
 
 # Note: Reuse unittest.TestProgram to launch test. In the future we may

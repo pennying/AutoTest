@@ -180,7 +180,7 @@ class SleekTest(unittest.TestCase):
         """
         Create and compare several stanza objects to a correct XML string.
 
-        If use_values is False, tests using stanza.values will not be used.
+        If use_values is False, test using stanza.values will not be used.
 
         Some stanzas provide default values for some interfaces, but
         these defaults can be problematic for testing since they can easily
@@ -369,7 +369,7 @@ class SleekTest(unittest.TestCase):
                 self.xmpp.register_plugin(plugin)
 
         # Some plugins require messages to have ID values. Set
-        # this to True in tests related to those plugins.
+        # this to True in test related to those plugins.
         self.xmpp.use_message_ids = False
 
         self.xmpp.process(threaded=True)
@@ -645,7 +645,7 @@ class SleekTest(unittest.TestCase):
             stanza_class -- The class of the sent stanza object.
             data         -- The XML string of the expected Message stanza,
                             or an equivalent stanza object.
-            use_values   -- Modifies the type of tests used by check_message.
+            use_values   -- Modifies the type of test used by check_message.
             defaults     -- A list of stanza interfaces that have defaults
                             values which may interfere with comparisons.
             timeout      -- Time in seconds to wait for a stanza before

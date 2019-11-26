@@ -3,9 +3,11 @@
 
 import warnings
 import unittest
+import time
 from config.seleniumConfig import DriverClient
 from common.utils.openApp import openAppUtil
 from common.utils.login import loginUtil
+from common.utils.chat import chatUtil
 from common.utils.call import callUtil
 
 
@@ -18,12 +20,14 @@ class CallTest(unittest.TestCase):
     def test_0_call(self):
         openAppUtil.openapp(self.driver)
         loginUtil.login(self.driver)
+        time.sleep(2)
+        chatUtil.openChat(self.driver, '潘颖')
 
     def test_1_call(self):
-        callUtil.call(self.driver, '颖1', '网络通话')
+        callUtil.call(self.driver)
 
     def test_2_callPhone(self):
-        callUtil.callPhone(self.driver, 13631230850)
+        callUtil.callPhone(self.driver, 13750061249)
 
     def tearDown(self):
         print('test fished')

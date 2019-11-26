@@ -7,9 +7,9 @@ class MultiSelectedUtil(unittest.TestCase):
     # 多选消息
     def multiSelectedMsg(self, driver, selectedNum):
 
-        textele = driver.find_elements_by_id('com.jiahe.gzb:id/chat_msg_text')[-1]
+        textele = driver.find_elements_by_id('com.jiahe.gzb:id/tv_content')[-1]
         adbUtils.longpress1(driver, textele, 3000)
-        driver.find_elements_by_id('com.jiahe.gzb:id/title')[4].click()
+        driver.find_elements_by_id('com.jiahe.gzb:id/md_title')[4].click()
         textarry = driver.find_elements_by_id('com.jiahe.gzb:id/multi_selected')
         for x in selectedNum:
             textarry[x].click()

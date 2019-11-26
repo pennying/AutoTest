@@ -30,13 +30,13 @@ class RemoveMsgUtil(unittest.TestCase):
         adbUtils.swipe(driver, x1, y1, x1, y2)
 
     # 删除消息
-    def removeMsg(self, driver):
+    def remove_msg(self, driver):
 
         self.swipeDown(driver)
 
-        textele = driver.find_elements_by_id('com.jiahe.gzb:id/chat_msg_text')[-1]
+        textele = driver.find_elements_by_id('com.jiahe.gzb:id/tv_content')[-1]
         adbUtils.longpress1(driver, textele, 3000)
-        driver.find_elements_by_id('com.jiahe.gzb:id/title')[1].click()
+        driver.find_elements_by_id('com.jiahe.gzb:id/md_title')[1].click()
 
 
 removeMsgUtil = RemoveMsgUtil()

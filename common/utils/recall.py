@@ -33,18 +33,18 @@ class RecallUtil(unittest.TestCase):
 
     # 撤回文本成功
     def recall(self, driver):
-        time.sleep(5)
 
-        textele = driver.find_elements_by_id('com.jiahe.gzb:id/chat_msg_text')
+        textele = driver.find_elements_by_id('com.jiahe.gzb:id/tv_content')
         textele = textele[-1]
         adbUtils.longpress1(driver, textele, 1000)
 
-        driver.find_elements_by_id('com.jiahe.gzb:id/title')[3].click()
+        driver.find_elements_by_id('com.jiahe.gzb:id/md_title')[3].click()
 
         # 验证撤回
-        sysmsgarry = driver.find_elements_by_id('com.jiahe.gzb:id/chat_sysmsg_text')
-        sysmsg = sysmsgarry[-1]
-        self.assertEqual(sysmsg.text, gobalvar.chatuser+'已撤回一条消息', '撤回失败')
+        sysele = driver.find_elements_by_id('com.jiahe.gzb:id/chat_sysmsg_text')[-1]
+        sysmsg = sysele.text
+        time.sleep(3)
+        self.assertEqual(sysmsg, gobalvar.username+'已撤回一条消息', '撤回失败')
         print('撤回成功')
 
         driver.find_element_by_id('com.jiahe.gzb:id/chat_reedit').click()

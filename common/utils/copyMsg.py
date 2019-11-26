@@ -21,23 +21,33 @@ class CopyMsgUtil(unittest.TestCase):
         y2 = int(l[1] * 0.75)  # 终点y坐标
         adbUtils.swipe(driver, x1, y1, x1, y2)
 
+    # 屏幕向下滑动
+    def swipeDown(self, driver):
+        # 手指向上滑动
+        l = self.getSize(driver)
+        x1 = int(l[0] * 0.5)  # x坐标
+        y1 = int(l[1] * 0.75)  # 起始y坐标
+        y2 = int(l[1] * 0.25)  # 终点y坐标
+        adbUtils.swipe(driver, x1, y1, x1, y2)
+
     # 复制消息
-    def copyMsg(self, driver):
+    def copy_msg(self, driver):
 
         flag = True
         while flag:
-            time.sleep(1)
+            time.sleep(2)
             try:
-                textele = driver.find_elements_by_id('com.jiahe.gzb:id/chat_msg_text')
+                textele = driver.find_elements_by_id('com.jiahe.gzb:id/tv_content')
 
                 if len(textele) > 0:
-                    adbUtils.longpress(driver, 'com.jiahe.gzb:id/chat_msg_text', 3000)
-                    driver.find_elements_by_id('com.jiahe.gzb:id/title')[2].click()
+                    adbUtils.longpress(driver, 'com.jiahe.gzb:id/tv_content', 3000)
                     flag = False
                 else:
-                    self.swipeUp(driver)
+                    self.swipeDown(driver)
             finally:
-                print('滑动一次')
+                print('ok')
+
+            driver.find_elements_by_id('com.jiahe.gzb:id/md_title')[2].click()
 
 
 copyMsgUtil = CopyMsgUtil()
