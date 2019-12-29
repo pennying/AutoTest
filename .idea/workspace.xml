@@ -1,52 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a514c5a6-e170-4ce2-aa6d-4d713da6eb2d" name="Default Changelist" comment="新增创建群组用例">
-      <change afterPath="$PROJECT_DIR$/common/utils/login_xf.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/utils/mailUtil.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/utils/schedule.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/utils/selectedMem.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/GZB.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/picture_.pic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/video_.pic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/GZB.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/test_pushImage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chat/test_chatinGroup.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chat/test_group.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/GZBAPP.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/GZBAPP.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/gobalvar.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/gobalvar.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/utils/adbUtils.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/utils/adbUtils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/utils/call.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/utils/call.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/utils/chat.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/utils/chat.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/utils/group.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/utils/group.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/utils/imageAssert.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/utils/imageAssert.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/utils/login.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/utils/login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/utils/openApp.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/utils/openApp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/utils/receiveMsgByhttp.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/utils/receiveMsgByhttp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/utils/relay.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/utils/relay.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/utils/removeMsg.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/utils/removeMsg.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/HTMLTestRunner.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/HTMLTestRunner.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/appiumConfig.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/appiumConfig.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/seleniumConfig.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/seleniumConfig.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/aaaa.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/pic8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/call/call.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/call/call.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chat/group.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chat/test_chat.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/chat/test_chat.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/bin/easy_install" beforeDir="false" afterPath="$PROJECT_DIR$/venv/bin/easy_install" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/bin/easy_install-3.6" beforeDir="false" afterPath="$PROJECT_DIR$/venv/bin/easy_install-3.6" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/bin/pip" beforeDir="false" afterPath="$PROJECT_DIR$/venv/bin/pip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/bin/pip3" beforeDir="false" afterPath="$PROJECT_DIR$/venv/bin/pip3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/bin/pip3.6" beforeDir="false" afterPath="$PROJECT_DIR$/venv/bin/pip3.6" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/bin/python" beforeDir="false" afterPath="$PROJECT_DIR$/venv/bin/python" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/bin/python3" beforeDir="false" afterPath="$PROJECT_DIR$/venv/bin/python3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/distlib/t32.exe" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/distlib/t32.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/distlib/t64.exe" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/distlib/t64.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/distlib/w32.exe" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/distlib/w32.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/distlib/w64.exe" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/distlib/w64.exe" afterDir="false" />
+    <list default="true" id="a514c5a6-e170-4ce2-aa6d-4d713da6eb2d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/app/task.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/test_pushImage.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/test_pushImage.py" afterDir="false" />
     </list>
     <ignored path="venv/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,8 +13,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/GZBAPP$test_pushImage.coverage" NAME="test_pushImage Coverage Results" MODIFIED="1577544458597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/app" />
+    <SUITE FILE_PATH="coverage/GZBAPP$test_pushImage.coverage" NAME="test_pushImage Coverage Results" MODIFIED="1577610782121" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/app" />
     <SUITE FILE_PATH="coverage/GZBAPP$schedule.coverage" NAME="schedule Coverage Results" MODIFIED="1577527152958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common/utils" />
+    <SUITE FILE_PATH="coverage/GZBAPP$task.coverage" NAME="task Coverage Results" MODIFIED="1577611361689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/app" />
   </component>
   <component name="FavoritesManager">
     <favorites_list name="GZBAPP" />
@@ -88,7 +46,7 @@
         <entry file="file://$PROJECT_DIR$/config/seleniumConfig.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="441">
-              <caret line="37" column="26" lean-forward="true" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
+              <caret line="37" column="26" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -108,7 +66,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/common/utils/schedule.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
+            <state relative-caret-position="241">
               <caret line="12" selection-start-line="12" selection-end-line="15" selection-end-column="17" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
@@ -117,13 +75,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/test_pushImage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="541">
-              <caret line="164" column="38" lean-forward="true" selection-start-line="164" selection-start-column="38" selection-end-line="164" selection-end-column="38" />
+            <state relative-caret-position="266">
+              <caret line="147" column="19" lean-forward="true" selection-start-line="147" selection-start-column="19" selection-end-line="147" selection-end-column="19" />
               <folding>
                 <element signature="e#37#46#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/app/task.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -184,7 +154,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/common/utils/token.py" />
         <option value="/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/poster3/encode.py" />
         <option value="$PROJECT_DIR$/common/utils/transfFile.py" />
         <option value="$PROJECT_DIR$/common/utils/backup.py" />
@@ -235,6 +204,7 @@
         <option value="$PROJECT_DIR$/common/utils/schedule.py" />
         <option value="$PROJECT_DIR$/config/seleniumConfig.py" />
         <option value="$PROJECT_DIR$/src/app/test_pushImage.py" />
+        <option value="$PROJECT_DIR$/src/app/task.py" />
       </list>
     </option>
   </component>
@@ -282,21 +252,6 @@
               <item name="GZBAPP" type="b2602c69:ProjectViewProjectNode" />
               <item name="GZBAPP" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="report" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GZBAPP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GZBAPP" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="report" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GZBAPP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GZBAPP" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="checklist" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -338,7 +293,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test_pushImage">
+  <component name="RunManager" selected="Python.task">
     <configuration name="chat" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="GZBAPP" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -493,7 +448,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test_group" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="task" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="GZBAPP" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -501,12 +456,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/chat" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/app" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/chat/test_group.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/app/task.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -577,19 +532,19 @@
       <item itemvalue="Python.conf" />
       <item itemvalue="Python.login" />
       <item itemvalue="Python.open" />
-      <item itemvalue="Python.test_group" />
       <item itemvalue="Python.test_pushImage" />
       <item itemvalue="Python.mailUtil" />
       <item itemvalue="Python tests.Unittests in call.py" />
       <item itemvalue="Python.schedule" />
+      <item itemvalue="Python.task" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.task" />
         <item itemvalue="Python.test_pushImage" />
         <item itemvalue="Python.schedule" />
         <item itemvalue="Python tests.Unittests in call.py" />
         <item itemvalue="Python.mailUtil" />
-        <item itemvalue="Python.test_group" />
       </list>
     </recent_temporary>
   </component>
@@ -606,7 +561,7 @@
       <workItem from="1577434641234" duration="293000" />
       <workItem from="1577434954792" duration="3208000" />
       <workItem from="1577449643128" duration="2337000" />
-      <workItem from="1577500640938" duration="21060000" />
+      <workItem from="1577500640938" duration="24391000" />
     </task>
     <task id="LOCAL-00001" summary="* 优化项目目录&#10;* 修改自动化报告样式&#10;* 调整报告标题及增加测试人员属性">
       <created>1552833393334</created>
@@ -643,7 +598,14 @@
       <option name="project" value="LOCAL" />
       <updated>1563206561221</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="增加发送告警邮件&#10;增加震动提醒&#10;增加定时执行用例">
+      <created>1577582679836</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1577582679836</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -679,7 +641,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26898000" />
+    <option name="totallyTimeSpent" value="30229000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -692,13 +654,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" x="796" y="224" width="306" height="551" id="Project" order="0" sideWeight="0.49543378" visible="true" weight="0.13219616" />
       <window_info id="Structure" order="1" sideWeight="0.5034965" side_tool="true" weight="0.16181915" />
       <window_info id="Favorites" order="2" sideWeight="0.5045662" side_tool="true" weight="0.2639405" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32771084" />
-      <window_info active="true" anchor="bottom" x="15" y="347" width="1891" height="322" id="Run" order="2" sideWeight="0.4976203" visible="true" weight="0.27765727" />
+      <window_info active="true" anchor="bottom" x="15" y="347" width="1891" height="322" id="Run" order="2" sideWeight="0.4976203" visible="true" weight="0.2505423" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4997356" weight="0.3329718" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -794,7 +757,8 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="* 优化项目目录&#10;* 修改自动化报告样式&#10;* 调整报告标题及增加测试人员属性" />
     <MESSAGE value="新增创建群组用例" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增创建群组用例" />
+    <MESSAGE value="增加发送告警邮件&#10;增加震动提醒&#10;增加定时执行用例" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加发送告警邮件&#10;增加震动提醒&#10;增加定时执行用例" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -862,7 +826,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/source/pic8.png" />
     <entry file="file://$PROJECT_DIR$/source/picture_.pic.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -1117,20 +1080,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/utils/schedule.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" selection-start-line="12" selection-end-line="15" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/seleniumConfig.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="441">
-          <caret line="37" column="26" lean-forward="true" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
+          <caret line="37" column="26" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -1150,12 +1103,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/common/utils/schedule.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="12" selection-start-line="12" selection-end-line="15" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/test_pushImage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="541">
-          <caret line="164" column="38" lean-forward="true" selection-start-line="164" selection-start-column="38" selection-end-line="164" selection-end-column="38" />
+        <state relative-caret-position="266">
+          <caret line="147" column="19" lean-forward="true" selection-start-line="147" selection-start-column="19" selection-end-line="147" selection-end-column="19" />
           <folding>
             <element signature="e#37#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/task.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -42,7 +42,7 @@ class TestTXTS:
         time.sleep(5)
         self.driver.find_element('xpath', "//*[@text='佳米测试']").click()
 
-        sum = 1500  # 执行总数
+        sum = 3  # 执行总数
         blackCount = 0  # 黑屏次数
         preWhiteIndex = 0  # 上一次白屏的下标
         name = '指挥中心合成图像1'
@@ -115,8 +115,8 @@ class TestTXTS:
         allure.attach(file, 'screenshot_img', allure.attachment_type.PNG)
 
         # 把黑屏截图保存到本地，用做对比
-        # river.get_screenshot_as_file("D:\GZBAPP\source\black.png")
-        load = imageAssert.load_image("D:\GZBAPP\source\P20_Screenshot_20191228_105612_com.xfrhtx.gzb.jpg")
+        # river.get_screenshot_as_file("D:\\GZBAPP\\source\\black.png")
+        load = imageAssert.load_image("D:\\GZBAPP\\source\\P20_Screenshot_20191228_105612_com.xfrhtx.gzb.jpg")
 
         # 要求误差500以内
         result = imageAssert.same_as(load, 200)
@@ -139,29 +139,24 @@ class TestTXTS:
         print('finished')
 
 
-testTXTS = TestTXTS()
-
-if __name__ == '__main__':
-
-    time1 = "08:00"
-    time2 = "13:00"
-
-    # 第一轮
-    schedule.every().day.at(time1).do(testTXTS.setup)
-    schedule.every().day.at(time1).do(testTXTS.test_login)
-    schedule.every().day.at(time1).do(testTXTS.test_txts)
-    schedule.every().day.at(time1).do(testTXTS.teardown)
-
-    # 第二轮
-    schedule.every().day.at(time2).do(testTXTS.setup)
-    schedule.every().day.at(time2).do(testTXTS.test_login)
-    schedule.every().day.at(time2).do(testTXTS.test_txts)
-    schedule.every().day.at(time2).do(testTXTS.teardown)
-
-    while True:
-        schedule.run_pending()
-        time.sleep(1)
-
-    pytest.main(['-s', '-q', 'test_PushImage.py', '--clean-alluredir', '--alluredir', 'report'])
-
-    os.system('allure generate report/ -o report/html --clean')
+# class DoTask:
+#     def job(self):
+#         pytest.main(['-s', '-q', 'test_pushImage.py', '--clean-alluredir', '--alluredir', 'report'])
+#         os.system('allure generate report/ -o report/html --clean')
+#
+#
+# doTask = DoTask()
+#
+# if __name__ == '__main__':
+#     time1 = "17:13:30"
+#     time2 = "17:16"
+#
+#     # 第一轮
+#     schedule.every().day.at(time1).do(doTask.job)
+#
+#     # 第二轮
+#     schedule.every().day.at(time2).do(doTask.job)
+#
+#     while True:
+#         schedule.run_pending()
+#         time.sleep(1)
