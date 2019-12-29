@@ -16,6 +16,10 @@ class ImageAssert(object):
     def __init__(self, driver):
         self.driver = driver
 
+    def get_screenshot(self):
+        # 截取整个屏幕，存储至系统临时目录下
+        self.driver.get_screenshot_as_file(TEMP_FILE)
+
     def get_screenshot_by_element(self, element):
         # 先截取整个屏幕，存储至系统临时目录下
         self.driver.get_screenshot_as_file(TEMP_FILE)
@@ -75,3 +79,4 @@ class ImageAssert(object):
             return True
         else:
             return False
+

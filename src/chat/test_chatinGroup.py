@@ -6,7 +6,6 @@ import warnings
 import pytest
 
 from config.seleniumConfig import DriverClient
-from common import gobalvar
 from common.utils.login import loginUtil
 from common.utils.openApp import openAppUtil
 from common.utils.openTab import openTabUtil
@@ -17,6 +16,7 @@ from common.utils.removeMsg import removeMsgUtil
 from common.utils.copyMsg import copyMsgUtil
 from common.utils.receiveMsgByhttp import sendMsgByHttpUtil
 from common.utils.chatAssert import chatAssert
+from common.utils.group import groupUtil
 
 
 class TestChat:
@@ -30,9 +30,12 @@ class TestChat:
     def test_login(self):
         openAppUtil.open_app(self.driver)
         loginUtil.login(self.driver)
-        time.sleep(5)
+        time.sleep(8)
         openTabUtil.open_tab(self.driver)
-        chatUtil.open_chat(self.driver, gobalvar.chatTo)
+        time.sleep(8)
+
+    def test_create_group(self):
+        groupUtil.create_group(self.driver, '潘颖_测试', '潘颖_部门1', ['颖1', '颖2'])
 
     # 发送文本
     def test_send_text(self):
@@ -129,18 +132,12 @@ class TestChat:
     def test_receive_video(self):
         sendMsgByHttpUtil.send_short_video('u307147', 'u1037134')
 
-    def test_quit_chat(self):
-        chatUtil.quit_chat(self.driver)
-
-    def teardown(self):
+    @staticmethod
+    def teardown():
         print('finished')
 
 
 if __name__ == '__main__':
 
-    pytest.main(['-s', '-q', 'test_chat.py', '--clean-alluredir', '--alluredir', 'report'])
-    # os.system('pytest -v -m "login" test_chat.py'])  # 使用@pytest.mark.login标记，运行标记的用例
-    # os.system('pytest -v test_chat.py::TestClass')  # 运行某个类
-    # os.system('pytest -v test_chat.py::TestClass::test_method')  # 运行某个方法
+    pytest.main(['-s', '-q', 'test_chatinGroup.py', '--clean-alluredir', '--alluredir', 'report'])
     os.system('allure generate report/ -o report/html --clean')
-

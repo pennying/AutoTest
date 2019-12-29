@@ -2,6 +2,7 @@ import time
 import unittest
 from common.utils.eleUtils import eleUtils
 
+
 class CallUtil(unittest.TestCase):
 
     def call(self, driver):

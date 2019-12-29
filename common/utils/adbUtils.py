@@ -23,5 +23,34 @@ class AdbUtils(object):
         args = str(x1) + ' ' + str(y1) + ' ' + str(x2) + ' ' + str(y2) + ' ' + str(ms)
         driver.execute_script('mobile:shell', {'command': 'input touchscreen swipe', 'args': args})
 
+    # 获取屏幕大小
+    def getSize(self, driver):
+
+        x = driver.get_window_size()['width']
+        y = driver.get_window_size()['height']
+        return [x, y]
+
+    # 屏幕向上滑动
+    def swipeUp(self, driver):
+
+        l = self.getSize(driver)
+        x1 = int(l[0] * 0.5)  # x坐标
+        y1 = int(l[1] * 1.0)  # 起始y坐标
+        y2 = int(l[1] * 0.75)  # 终点y坐标
+        self.swipe(driver, x1, y1, x1, y2)
+
+    # 屏幕向下滑动
+    def swipeDown(self, driver):
+
+        l = self.getSize(driver)
+        x1 = int(l[0] * 0.5)  # x坐标
+        y1 = int(l[1] * 0.0)  # 起始y坐标
+        y2 = int(l[1] * 0.75)  # 终点y坐标
+        adbUtils.swipe(driver, x1, y1, x1, y2)
+
+    # 震动
+    def vibrator(self, driver):
+        driver.execute_script('mobile:shell', {'command': 'echo 1000 > /sys/devices/virtual/timed_output/vibrator/enable'})
+
 
 adbUtils = AdbUtils()

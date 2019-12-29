@@ -8,11 +8,17 @@ class Singleton(object):
             desired_caps = dict()
             desired_caps['platformName'] = 'Android'
             desired_caps['platformVersion'] = '9'
-            desired_caps['deviceName'] = 'SJE0217317012319'
+            # desired_caps['deviceName'] = 'SJE0217317012319'
+            desired_caps['deviceName'] = 'CLB7N18828002163'
             desired_caps['automationName'] = 'uiautomator2'
-            desired_caps['appPackage'] = 'com.jiahe.gzb'
 
             # 7.0版本
+            # desired_caps['appPackage'] = 'com.jiahe.gzb'
+            # desired_caps['appActivity'] = 'com.jm.gzb.system.ui.activity.SplashActivity'
+            # desired_caps['appWaitActivity'] = 'com.jm.gzb.system.ui.activity.SplashActivity'
+
+            # 消防版
+            desired_caps['appPackage'] = 'com.xfrhtx.gzb'
             desired_caps['appActivity'] = 'com.jm.gzb.system.ui.activity.SplashActivity'
             desired_caps['appWaitActivity'] = 'com.jm.gzb.system.ui.activity.SplashActivity'
 

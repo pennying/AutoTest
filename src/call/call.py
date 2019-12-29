@@ -21,7 +21,7 @@ class CallTest(unittest.TestCase):
         openAppUtil.openapp(self.driver)
         loginUtil.login(self.driver)
         time.sleep(2)
-        chatUtil.openChat(self.driver, '潘颖')
+        chatUtil.openChat(self.driver, '潘颖1')
 
     def test_1_call(self):
         callUtil.call(self.driver)

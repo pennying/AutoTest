@@ -76,7 +76,7 @@ class SendMsgByHttpUtil(object):
         # 获取token
         token = tokenUtil.getToken()
         # 获取文件ID
-        file_id = uploadFileUtil.uploadFile('aaaa.jpg', 'image')
+        file_id = uploadFileUtil.uploadFile('picture_.pic.jpg', 'image')
         # 请求url
         url = 'http://eim.mygzb.com:9090/eim/api/message/send?access_token=' + token
         # data
@@ -173,7 +173,7 @@ class SendMsgByHttpUtil(object):
         # 获取文件ID
         file_id = uploadFileUtil.uploadFile('video.mp4', 'file')
         # 获取文件ID
-        img_file_id = uploadFileUtil.uploadFile('aaaa.jpg', 'image')
+        img_file_id = uploadFileUtil.uploadFile('video_.pic.jpg', 'image')
         # 请求url
         url = 'http://eim.mygzb.com:9090/eim/api/message/send?access_token=' + token
         # data

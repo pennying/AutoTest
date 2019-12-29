@@ -16,6 +16,10 @@ class LoginUtil(object):
         driver.implicitly_wait(30)
         print('识别码OK')
 
+        # 隐私权限
+        time.sleep(5)
+        driver.find_element_by_id('com.jiahe.gzb:id/btn_agree').click()
+
         # 登录
         adbUtils.input(driver, 'com.jiahe.gzb:id/edit_account', gobalvar.account)
         adbUtils.input(driver, 'com.jiahe.gzb:id/edit_password', gobalvar.password)
