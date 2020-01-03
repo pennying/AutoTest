@@ -4,25 +4,23 @@ import schedule
 import time
 
 
-class DoTask:
+def job():
+    pytest.main(['-s', '-q', 'test_pushImage.py', '--clean-alluredir', '--alluredir', 'report'])
+    os.system('allure generate report -o /html --clean')
 
-    def job(self, folderName):
-        pytest.main(['-s', '-q', 'test_pushImage.py', '--clean-alluredir', '--alluredir', 'report'])
-        #os.system('allure generate report/ -o report/html --clean')
-        os.system('allure generate ' + folderName + '/ -o ' + folderName + '/html --clean')
-
-
-doTask = DoTask()
 
 if __name__ == '__main__':
-    time1 = "17:23"
-    time2 = "17:26"
 
-    # 第一轮
-    schedule.every().day.at(time1).do(doTask.job('report1'))
-
-    # 第二轮
-    schedule.every().day.at(time2).do(doTask.job('report2'))
+    time1 = "09:00"
+    schedule.every().day.at(time1).do(job)
+    time2 = "11:30"
+    schedule.every().day.at(time2).do(job)
+    time3 = "14:00"
+    schedule.every().day.at(time3).do(job)
+    time4 = "16:30"
+    schedule.every().day.at(time4).do(job)
+    time5 = "19:00"
+    schedule.every().day.at(time5).do(job)
 
     while True:
         schedule.run_pending()

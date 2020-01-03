@@ -53,6 +53,12 @@ class ImageAssert(object):
             os.makedirs(dirPath)
         shutil.copyfile(TEMP_FILE, PATH(dirPath + "/" + imageName + "." + form))
 
+    def write_to_file_by_temp_file(self, dirPath, imageName, tempFile, form="png"):
+        # 将截屏文件复制到指定目录下
+        if not os.path.isdir(dirPath):
+            os.makedirs(dirPath)
+        shutil.copyfile(tempFile, PATH(dirPath + "/" + imageName + "." + form))
+
     def load_image(self, image_path):
         # 加载目标图片供对比用
         if os.path.isfile(image_path):
@@ -80,3 +86,23 @@ class ImageAssert(object):
         else:
             return False
 
+    def same_as(self, pic_name1, pic_name2, percent):
+        # 对比图片，percent值设为0，则100%相似时返回True，设置的值越大，相差越大
+        import math
+        import operator
+
+        TEMP_FILE1 = PATH(tempfile.gettempdir() + "/" + pic_name1 + ".png")
+        image1 = Image.open(TEMP_FILE1)
+
+        TEMP_FILE2 = PATH(tempfile.gettempdir() + "/" + pic_name2 + ".png")
+        image2 = Image.open(TEMP_FILE2)
+
+        histogram1 = image1.histogram()
+        histogram2 = image2.histogram()
+
+        differ = math.sqrt(reduce(operator.add, list(map(lambda a, b: (a - b) ** 2, histogram1, histogram2))) / len(histogram1))
+        if differ <= percent:
+            return True
+        else:
+            return False
+        return result

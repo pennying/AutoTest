@@ -9,19 +9,19 @@ class MailUtils(object):
         msg_from = 'test@mygzb.com'
         passwd = 'TEST@2288'
         receiver = [
-        'y-pan@mygzb.com',
-        'zt-lin@mygzb.com',
-        'ky-huang@mygzb.com',
-        'jl-ye@mygzb.com',
-        'jq-feng@mygzb.com',
-        'zr-huang@ejiahe.com',
-        'jf-mai@mygzb.com',
-        'xm-zhou@mygzb.com',
-        'hd-wang@mygzb.com'
+            'y-pan@mygzb.com',
+            'zt-lin@mygzb.com',
+            'ky-huang@mygzb.com',
+            'jl-ye@mygzb.com',
+            'jq-feng@mygzb.com',
+            'zr-huang@ejiahe.com',
+            'jf-mai@mygzb.com',
+            'xm-zhou@mygzb.com',
+            'hd-wang@mygzb.com'
         ]
         msg_to = ",".join(receiver)
         subject = "图像推送黑屏告警"
-        content = "告警时间：" + time.strftime('%Y-%m-%d %H:%M:%S') + "\n视频源:" + name + "\n告警问题：图像推送连续出现" + str(black) + "次黑屏" + "\n告警级别：警告"
+        content = "告警时间：" + time.strftime('%Y-%m-%d %H:%M:%S') + "\n视频源:" + str(name) + "\n告警问题：图像推送连续出现" + str(black) + "次黑屏" + "\n告警级别：警告"
         msg = MIMEText(content)
         msg['Subject'] = subject
         msg['From'] = msg_from

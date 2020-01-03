@@ -44,13 +44,18 @@ class AdbUtils(object):
 
         l = self.getSize(driver)
         x1 = int(l[0] * 0.5)  # x坐标
-        y1 = int(l[1] * 0.0)  # 起始y坐标
+        y1 = int(l[1] * 0.00)  # 起始y坐标
         y2 = int(l[1] * 0.75)  # 终点y坐标
         adbUtils.swipe(driver, x1, y1, x1, y2)
 
-    # 震动
-    def vibrator(self, driver):
-        driver.execute_script('mobile:shell', {'command': 'echo 1000 > /sys/devices/virtual/timed_output/vibrator/enable'})
+    # 屏幕向下滑动
+    def swipeDown1(self, driver):
+
+        l = self.getSize(driver)
+        y1 = int(l[0] * 0.5)  # x坐标
+        x1 = int(l[1] * 0.00)  # 起始y坐标
+        x2 = int(l[1] * 0.75)  # 终点y坐标
+        adbUtils.swipe(driver, x1, y1, x2, y1)
 
 
 adbUtils = AdbUtils()

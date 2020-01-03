@@ -7,5 +7,5 @@ password = '123456'  # 密码
 chatTo = '潘颖'  # 撤回用户名
 
 # 消防版：用户信息
-account_xf = 'jiami31'  # 登录账号
-password_xf = '3612288'  # 密码
+account_xf = 'py1'  # 登录账号
+password_xf = 'Jh888666'  # 密码
