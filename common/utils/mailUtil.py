@@ -35,5 +35,28 @@ class MailUtils(object):
         finally:
             s.quit()
 
+    def send_mail_static(self, name):
+        msg_from = 'test@mygzb.com'
+        passwd = 'TEST@2288'
+        receiver = [
+            'y-pan@mygzb.com',
+            # 'xm-zhou@mygzb.com',
+        ]
+        msg_to = ",".join(receiver)
+        subject = "图像推送卡顿告警"
+        content = "告警时间：" + time.strftime('%Y-%m-%d %H:%M:%S') + "\n视频源:" + str(name) + "\n告警问题：图像推送画面卡顿" + "\n告警级别：警告"
+        msg = MIMEText(content)
+        msg['Subject'] = subject
+        msg['From'] = msg_from
+        msg['To'] = msg_to
+
+        s = smtplib.SMTP_SSL("smtp.mygzb.com", 465)
+        try:
+            s.login(msg_from, passwd)
+            s.sendmail(msg_from, receiver, msg.as_string())
+            # print("已发送告警邮件")
+        finally:
+            s.quit()
+
 
 mailUtils = MailUtils()

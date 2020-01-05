@@ -86,7 +86,7 @@ class ImageAssert(object):
         else:
             return False
 
-    def same_as(self, pic_name1, pic_name2, percent):
+    def same_as_1(self, pic_name1, pic_name2, percent):
         # 对比图片，percent值设为0，则100%相似时返回True，设置的值越大，相差越大
         import math
         import operator

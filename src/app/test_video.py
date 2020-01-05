@@ -6,14 +6,12 @@ import warnings
 import tempfile
 import allure
 import pytest
-import pytesseract
-import cv2
-from PIL import Image
 
 from config.seleniumConfig import DriverClient
 from common.utils.login_xf import loginUtil
 from common.utils.openApp import openAppUtil
 from common.utils.imageAssert import ImageAssert
+from common.utils.mailUtil import mailUtils
 
 
 @allure.feature("测试图像推送")
@@ -43,6 +41,7 @@ class TestStatic:
         self.driver.find_element('xpath', "//*[@text='佳米测试']").click()
 
         name = '指挥中心合成图像1'
+        # name = '应急管理部指挥大厅主'
 
         self.driver.find_elements('xpath', "//*[@text='"+name+"']")[0].click()
         time.sleep(6)
@@ -56,63 +55,36 @@ class TestStatic:
 
             if result:
                 print('画面卡住了')
+                mailUtils.send_mail_static(name)
+            else:
+                print('正常')
 
     def isSamePic(self, driver):
 
         imageAssert = ImageAssert(driver)
 
-        # 截取当前整个屏幕,保存到本地
-        PATH = lambda p: os.path.abspath(p)
-        TEMP_FILE = PATH(tempfile.gettempdir() + "/temp_screen.png")
-        driver.get_screenshot_as_file(TEMP_FILE)
+        self.sreenShoot(self.driver, 'pic1')
+        time.sleep(1)
+        self.sreenShoot(self.driver, 'pic2')
 
-        # 把黑屏截图保存到本地，用做对比
-        driver.get_screenshot_as_file("D:\\GZBAPP\\temp\\gray.png")
-        load = imageAssert.load_image("D:\\GZBAPP\\temp\\gray.png")
+        result = imageAssert.same_as_1("pic1", "pic2", 0)
 
-        # 没有误差
-        result = imageAssert.same_as(load, 0)
         return result
 
-    def istatic(self, driver, pic_name):
+    def sreenShoot(self, driver, pic_name):
 
         imageAssert = ImageAssert(driver)
+
+        # 截取当前整个屏幕,保存到本地
+        # PATH = lambda p: os.path.abspath(p)
+        # TEMP_FILE = PATH(tempfile.gettempdir() + "/" + pic_name + ".png")
+        # driver.get_screenshot_as_file(TEMP_FILE)
 
         # 截取部分图片
         PATH = lambda p: os.path.abspath(p)
         TEMP_FILE = PATH(tempfile.gettempdir() + "/" + pic_name + ".png")
         imageAssert.get_screenshot_by_custom_size(1850, 75, 2050, 130)
-
-        # 读入原始图像
-        img = cv2.imread(TEMP_FILE)
-        # 灰度化处理
-        img_gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
-
-        # 放大图像
-        fx = 4.0
-        fy = 3.0
-        img_new = cv2.resize(img_gray, (0, 0), fx=fx, fy=fy, interpolation=cv2.INTER_CUBIC)
-
-        # 保存图片
-        img_new.save(TEMP_FILE)
-
-        # # 写入图片到本地img_
-        # save_folder = 'D:\\GZBAPP\\temp\\'
-        # cv2.imwrite(os.path.join(save_folder, 'gray.jpg'), img_new)
-        # FILE = save_folder + 'gray.jpg'
-        #
-        # cv2.namedWindow("roi")
-        # cv2.imshow("roi", FILE)
-        # cv2.waitKey(0)
-        # cv2.destroyAllWindow()
-        #
-        # text = pytesseract.image_to_string(Image.open(FILE), config='--psm 7 sfz')
-        #
-        # print(text)
-        #
-        # if len(text) == 13:
-        #     text = True
-        # return text
+        driver.get_screenshot_as_file(TEMP_FILE)
 
     def teardown(self):
         print('finished')
@@ -120,5 +92,5 @@ class TestStatic:
 
 if __name__ == '__main__':
 
-    pytest.main(['-s', '-q', 'test_pushImage.py', '--clean-alluredir', '--alluredir', 'report'])
+    pytest.main(['-s', '-q', 'test_video.py', '--clean-alluredir', '--alluredir', 'report'])
     os.system('allure generate report -o /html --clean')
