@@ -47,17 +47,16 @@ class TestStatic:
         time.sleep(6)
 
         i = 0
-        while i < 100:
+        while i < 1000:
             i += 1
-            print(i)
             result = self.isSamePic(self.driver)
             time.sleep(1)
 
             if result:
-                print('画面卡住了')
+                print(i, '画面卡住了')
                 mailUtils.send_mail_static(name)
             else:
-                print('正常')
+                print(i, '正常')
 
     def isSamePic(self, driver):
 
@@ -73,18 +72,17 @@ class TestStatic:
 
     def sreenShoot(self, driver, pic_name):
 
-        imageAssert = ImageAssert(driver)
-
         # 截取当前整个屏幕,保存到本地
-        # PATH = lambda p: os.path.abspath(p)
-        # TEMP_FILE = PATH(tempfile.gettempdir() + "/" + pic_name + ".png")
-        # driver.get_screenshot_as_file(TEMP_FILE)
-
-        # 截取部分图片
         PATH = lambda p: os.path.abspath(p)
         TEMP_FILE = PATH(tempfile.gettempdir() + "/" + pic_name + ".png")
-        imageAssert.get_screenshot_by_custom_size(1850, 75, 2050, 130)
         driver.get_screenshot_as_file(TEMP_FILE)
+
+        # 截取部分图片
+        # imageAssert = ImageAssert(driver)
+        # PATH = lambda p: os.path.abspath(p)
+        # TEMP_FILE = PATH(tempfile.gettempdir() + "/" + pic_name + ".png")
+        # imageAssert.get_screenshot_by_custom_size(1850, 75, 2050, 130)
+        # driver.get_screenshot_as_file(TEMP_FILE)
 
     def teardown(self):
         print('finished')

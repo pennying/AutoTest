@@ -5,6 +5,7 @@ import time
 import warnings
 import tempfile
 import allure
+import socket
 from datetime import datetime, timedelta
 
 from config.seleniumConfig import DriverClient
@@ -95,7 +96,7 @@ class TestTXTS:
             # 计算出现黑屏的概率
             self.percentage(self.driver, sum, i, blackCount)
 
-            time.sleep(1)
+            time.sleep(2)
             i += 1
 
         # send mail
@@ -116,7 +117,12 @@ class TestTXTS:
         # 截取当前整个屏幕,保存到本地
         PATH = lambda p: os.path.abspath(p)
         TEMP_FILE = PATH(tempfile.gettempdir() + "/temp_screen.png")
-        driver.get_screenshot_as_file(TEMP_FILE)
+
+        hasGetScreen = driver.get_screenshot_as_file(TEMP_FILE)
+        while not hasGetScreen:
+            print('=========================截屏失败====================================')
+            hasGetScreen = driver.get_screenshot_as_file(TEMP_FILE)
+
         file = open(TEMP_FILE, 'rb').read()
         allure.attach(file, 'screenshot_img', allure.attachment_type.PNG)
 
@@ -124,7 +130,7 @@ class TestTXTS:
         # river.get_screenshot_as_file("D:\\GZBAPP\\source\\black.png")
         load = imageAssert.load_image("D:\\GZBAPP\\source\\P20_Screenshot_20191228_105612_com.xfrhtx.gzb.jpg")
 
-        # 要求误差500以内
+        # 要求完全一致
         result = imageAssert.same_as(load, 200)
         return result
 

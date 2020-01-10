@@ -28,6 +28,7 @@ class Singleton(object):
 
             cls._instance = orig.__new__(cls, *args, **kw)
             cls._instance.driver = webdriver.Remote('http://127.0.0.1:4723/wd/hub', desired_caps)
+
         return cls._instance
 
 
