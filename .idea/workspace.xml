@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a514c5a6-e170-4ce2-aa6d-4d713da6eb2d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/app/log/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/utils/mailUtil.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/utils/mailUtil.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/utils/mailwithzip.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/utils/mailwithzip.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/utils/openApp.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/utils/openApp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/appiumConfig.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/appiumConfig.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/seleniumConfig.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/seleniumConfig.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/task.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/task.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/test_pushImage.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/test_pushImage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/test_video.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/test_video.py" afterDir="false" />
-    </list>
+    <list default="true" id="a514c5a6-e170-4ce2-aa6d-4d713da6eb2d" name="Default Changelist" comment="优化每日发送邮件" />
     <ignored path="venv/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,7 +15,7 @@
     <SUITE FILE_PATH="coverage/GZBAPP$pytest_for_test_video_TestStatic.coverage" NAME="pytest for test_video.TestStatic Coverage Results" MODIFIED="1578211444242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/app" />
     <SUITE FILE_PATH="coverage/GZBAPP$pytest_in_test_openchrome_py.coverage" NAME="pytest in test_openchrome.py Coverage Results" MODIFIED="1579168000697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/app" />
     <SUITE FILE_PATH="coverage/GZBAPP$pytest_for_test_video_TestTXTS.coverage" NAME="pytest for test_video.TestTXTS Coverage Results" MODIFIED="1577991556822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/app" />
-    <SUITE FILE_PATH="coverage/GZBAPP$test_pushImage.coverage" NAME="test_pushImage Coverage Results" MODIFIED="1579520538911" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/app/" />
+    <SUITE FILE_PATH="coverage/GZBAPP$test_pushImage.coverage" NAME="test_pushImage Coverage Results" MODIFIED="1579524260839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/app/" />
     <SUITE FILE_PATH="coverage/GZBAPP$mailwithzip.coverage" NAME="mailwithzip Coverage Results" MODIFIED="1579356262825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common/utils" />
     <SUITE FILE_PATH="coverage/GZBAPP$task.coverage" NAME="task Coverage Results" MODIFIED="1579522965903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/app" />
     <SUITE FILE_PATH="coverage/GZBAPP$appiumConfig.coverage" NAME="appiumConfig Coverage Results" MODIFIED="1579241399480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/config" />
@@ -41,70 +30,13 @@
     <SUITE FILE_PATH="coverage/GZBAPP$schedule.coverage" NAME="schedule Coverage Results" MODIFIED="1577527152958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common/utils" />
     <SUITE FILE_PATH="coverage/GZBAPP$pytest_for_test_pushImage_TestTXTS.coverage" NAME="pytest for test_pushImage.TestTXTS Coverage Results" MODIFIED="1578014190514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/app" />
     <SUITE FILE_PATH="coverage/GZBAPP$pytest_in_test_video_py.coverage" NAME="pytest in test_video.py Coverage Results" MODIFIED="1578211566615" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/app" />
-    <SUITE FILE_PATH="coverage/GZBAPP$text.coverage" NAME="text Coverage Results" MODIFIED="1579523207723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/app" />
+    <SUITE FILE_PATH="coverage/GZBAPP$text.coverage" NAME="text Coverage Results" MODIFIED="1579523983914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/app" />
   </component>
   <component name="FavoritesManager">
     <favorites_list name="GZBAPP" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/test_video.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1150">
-              <caret line="59" column="22" selection-start-line="59" selection-start-column="22" selection-end-line="59" selection-end-column="22" />
-              <folding>
-                <element signature="e#37#46#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/utils/listener.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="22" selection-start-line="22" selection-end-line="23" selection-end-column="35" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/test_pushImage.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4125">
-              <caret line="180" column="16" lean-forward="true" selection-start-line="180" selection-start-column="16" selection-end-line="180" selection-end-column="16" />
-              <folding>
-                <element signature="e#37#46#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/log/black_screen_report_20200120.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/utils/mailUtil.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="23" column="45" lean-forward="true" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
-              <folding>
-                <element signature="e#0#14#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/task.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -115,13 +47,46 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/common/utils/listener.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/test_pushImage.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="232">
+              <caret line="196" column="38" lean-forward="true" selection-start-line="196" selection-start-column="38" selection-end-line="196" selection-end-column="38" />
+              <folding>
+                <element signature="e#37#46#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/text.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="35">
-              <caret line="59" column="46" lean-forward="true" selection-start-line="59" selection-start-column="46" selection-end-line="59" selection-end-column="46" />
+            <state relative-caret-position="21">
+              <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/stop.bat">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -229,9 +194,9 @@
         <option value="$PROJECT_DIR$/src/app/log/black_screen_report_20200120.txt" />
         <option value="$PROJECT_DIR$/common/utils/mailUtil.py" />
         <option value="$PROJECT_DIR$/src/app/test_video.py" />
-        <option value="$PROJECT_DIR$/common/utils/listener.py" />
         <option value="$PROJECT_DIR$/src/app/test_pushImage.py" />
         <option value="$PROJECT_DIR$/src/app/task.py" />
+        <option value="$PROJECT_DIR$/common/utils/listener.py" />
       </list>
     </option>
   </component>
@@ -247,7 +212,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -305,6 +269,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -339,7 +304,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.text">
+  <component name="RunManager" selected="Python.test_pushImage">
     <configuration name="1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="GZBAPP" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -672,7 +637,7 @@
       <workItem from="1579066242117" duration="21230000" />
       <workItem from="1579264024123" duration="752000" />
       <workItem from="1579264787674" duration="76801000" />
-      <workItem from="1579522829888" duration="657000" />
+      <workItem from="1579522829888" duration="3184000" />
     </task>
     <task id="LOCAL-00001" summary="* 优化项目目录&#10;* 修改自动化报告样式&#10;* 调整报告标题及增加测试人员属性">
       <created>1552833393334</created>
@@ -744,7 +709,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578622054330</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="优化每日发送邮件">
+      <created>1579523760268</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1579523760268</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -780,7 +752,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="285001000" />
+    <option name="totallyTimeSpent" value="287528000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -793,19 +765,20 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" x="796" y="224" width="306" height="551" id="Project" order="0" sideWeight="0.49543378" weight="0.20726173" />
+      <window_info active="true" content_ui="combo" x="796" y="224" width="306" height="551" id="Project" order="0" sideWeight="0.49543378" visible="true" weight="0.20726173" />
       <window_info id="Structure" order="1" sideWeight="0.5034965" side_tool="true" weight="0.16181915" />
       <window_info id="Favorites" order="2" sideWeight="0.5045662" side_tool="true" weight="0.2639405" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.37540984" />
-      <window_info anchor="bottom" x="15" y="347" width="1891" height="322" id="Run" order="2" sideWeight="0.4976203" weight="0.81311476" />
+      <window_info anchor="bottom" x="15" y="347" width="1891" height="322" id="Run" order="2" sideWeight="0.4976203" visible="true" weight="0.25245902" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4997356" weight="0.28199565" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32614556" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4976203" weight="0.32614556" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.2557377" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.23934427" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5023797" side_tool="true" weight="0.36830103" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.3167116" />
       <window_info anchor="bottom" id="Thumbnails" order="11" weight="0.3295325" />
@@ -903,7 +876,8 @@
     <MESSAGE value="增加图像动态识别&#10;增加自动打开浏览器" />
     <MESSAGE value="优化同一窗口打开多个标签页" />
     <MESSAGE value="优化打印日志" />
-    <option name="LAST_COMMIT_MESSAGE" value="优化打印日志" />
+    <MESSAGE value="优化每日发送邮件" />
+    <option name="LAST_COMMIT_MESSAGE" value="优化每日发送邮件" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1168,13 +1142,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/stop.bat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/log/black_screen_log_20200120.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-42354" />
@@ -1216,36 +1183,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/test_video.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1150">
-          <caret line="59" column="22" selection-start-line="59" selection-start-column="22" selection-end-line="59" selection-end-column="22" />
-          <folding>
-            <element signature="e#37#46#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/utils/listener.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="22" selection-start-line="22" selection-end-line="23" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/test_pushImage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4125">
-          <caret line="180" column="16" lean-forward="true" selection-start-line="180" selection-start-column="16" selection-end-line="180" selection-end-column="16" />
-          <folding>
-            <element signature="e#37#46#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/log/black_screen_report_20200120.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
@@ -1253,13 +1190,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/test_video.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="59" column="22" selection-start-line="59" selection-start-column="22" selection-end-line="59" selection-end-column="22" />
+          <folding>
+            <element signature="e#37#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/common/utils/mailUtil.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
+        <state relative-caret-position="41">
           <caret line="23" column="45" lean-forward="true" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/text.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/stop.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -1270,12 +1234,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/text.py">
+    <entry file="file://$PROJECT_DIR$/src/app/test_pushImage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35">
-          <caret line="59" column="46" lean-forward="true" selection-start-line="59" selection-start-column="46" selection-end-line="59" selection-end-column="46" />
+        <state relative-caret-position="232">
+          <caret line="196" column="38" lean-forward="true" selection-start-line="196" selection-start-column="38" selection-end-line="196" selection-end-column="38" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#37#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/utils/listener.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
