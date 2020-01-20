@@ -13,7 +13,10 @@ class Mailwithzip(object):
 
         receiver = [
             'y-pan@mygzb.com',
-            # 'xm-zhou@mygzb.com',
+            'xm-zhou@mygzb.com',
+            'jinghuan-lin@mygzb.com',
+            'mk-jia@mygzb.com',
+            'xx-zhuang@mygzb.com'
             # 'jf-mai@mygzb.com'
 
         ]

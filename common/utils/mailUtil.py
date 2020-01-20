@@ -6,8 +6,6 @@ from email.mime.text import MIMEText
 class MailUtils(object):
 
     def send_mail(self, black, name):
-        msg_from = 'test@mygzb.com'
-        passwd = 'TEST@2288'
         receiver = [
             'y-pan@mygzb.com',
             'zt-lin@mygzb.com',
@@ -19,32 +17,37 @@ class MailUtils(object):
             'xm-zhou@mygzb.com',
             'hd-wang@mygzb.com'
         ]
-        msg_to = ",".join(receiver)
         subject = "图像推送黑屏告警"
         content = "告警时间：" + time.strftime('%Y-%m-%d %H:%M:%S') + "\n视频源:" + str(name) + "\n告警问题：图像推送连续出现" + str(black) + "次黑屏" + "\n告警级别：警告"
-        msg = MIMEText(content)
-        msg['Subject'] = subject
-        msg['From'] = msg_from
-        msg['To'] = msg_to
+        # content += '\n'
+        # content += text
+        self.send(subject, receiver, content)
 
-        s = smtplib.SMTP_SSL("smtp.mygzb.com", 465)
-        try:
-            s.login(msg_from, passwd)
-            s.sendmail(msg_from, receiver, msg.as_string())
-            # print("已发送告警邮件")
-        finally:
-            s.quit()
-
-    def send_mail_static(self, name):
-        msg_from = 'test@mygzb.com'
-        passwd = 'TEST@2288'
+    def send_mail_static(self, name, slowCount, text):
         receiver = [
             'y-pan@mygzb.com',
-            # 'xm-zhou@mygzb.com',
+            'xm-zhou@mygzb.com'
         ]
-        msg_to = ",".join(receiver)
         subject = "图像推送卡顿告警"
-        content = "告警时间：" + time.strftime('%Y-%m-%d %H:%M:%S') + "\n视频源:" + str(name) + "\n告警问题：图像推送画面卡顿" + "\n告警级别：警告"
+        content = "告警时间：" + time.strftime('%Y-%m-%d %H:%M:%S') + "\n视频源:" + str(name) + "\n告警问题：图像推送连续出现" + str(slowCount) + "次卡顿" + "\n告警级别：警告"
+        content += '\n'
+        content += text
+        self.send(subject, receiver, content)
+
+    def send_mail_report(self, text):
+        receiver = [
+            'y-pan@mygzb.com'
+        ]
+        subject = "每日3000次报告"
+        content = text
+        self.send(subject, receiver, content)
+
+    def send(self, subject, receiver, content):
+        msg_from = 'test@mygzb.com'
+        passwd = 'TEST@2288'
+
+        msg_to = ",".join(receiver)
+
         msg = MIMEText(content)
         msg['Subject'] = subject
         msg['From'] = msg_from
@@ -54,7 +57,6 @@ class MailUtils(object):
         try:
             s.login(msg_from, passwd)
             s.sendmail(msg_from, receiver, msg.as_string())
-            # print("已发送告警邮件")
         finally:
             s.quit()
 

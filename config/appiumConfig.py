@@ -7,9 +7,15 @@ class Singleton(object):
             orig = super(Singleton, cls)
             desired_caps = dict()
             desired_caps['platformName'] = 'Android'
-            desired_caps['platformVersion'] = '9'
-            # desired_caps['deviceName'] = 'SJE0217317012319'
-            desired_caps['deviceName'] = 'CLB7N18828002163'
+
+            # 真机
+            # desired_caps['platformVersion'] = '9'
+            # desired_caps['deviceName'] = 'SJE0217317012319' # V10
+            # desired_caps['deviceName'] = 'CLB7N18828002163' # P10
+
+            # 模拟器
+            desired_caps['plateformVersion'] = '6.0.1'
+            desired_caps['deviceName'] = '127.0.0.1:4723'
             desired_caps['automationName'] = 'uiautomator2'
 
             # 7.0版本
