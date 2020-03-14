@@ -2,10 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a514c5a6-e170-4ce2-aa6d-4d713da6eb2d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/start1.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/start2.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/taskNew.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/test_pushImageNew.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/test_videoNew.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/utils/adbUtils.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/utils/adbUtils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/utils/imageAssert.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/utils/imageAssert.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/utils/listener.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/utils/listener.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/utils/login_xf.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/utils/login_xf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/utils/mailUtil.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/utils/mailUtil.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/appiumConfig.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/appiumConfig.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/seleniumConfig.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/seleniumConfig.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/other.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ocr.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/start.bat" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/start.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/stop.bat" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/stop.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/task.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/task.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/test_openchrome.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/test_openchrome.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/test_pushImage.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/test_pushImage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/test_video.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/test_video.py" afterDir="false" />
     </list>
-    <ignored path="venv/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,9 +35,9 @@
     <SUITE FILE_PATH="coverage/GZBAPP$pytest_for_test_video_TestStatic.coverage" NAME="pytest for test_video.TestStatic Coverage Results" MODIFIED="1578211444242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/app" />
     <SUITE FILE_PATH="coverage/GZBAPP$pytest_in_test_openchrome_py.coverage" NAME="pytest in test_openchrome.py Coverage Results" MODIFIED="1579168000697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/app" />
     <SUITE FILE_PATH="coverage/GZBAPP$pytest_for_test_video_TestTXTS.coverage" NAME="pytest for test_video.TestTXTS Coverage Results" MODIFIED="1577991556822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/app" />
-    <SUITE FILE_PATH="coverage/GZBAPP$test_pushImage.coverage" NAME="test_pushImage Coverage Results" MODIFIED="1579524260839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/app/" />
+    <SUITE FILE_PATH="coverage/GZBAPP$test_pushImage.coverage" NAME="test_pushImage Coverage Results" MODIFIED="1580052341128" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/app/" />
     <SUITE FILE_PATH="coverage/GZBAPP$mailwithzip.coverage" NAME="mailwithzip Coverage Results" MODIFIED="1579356262825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common/utils" />
-    <SUITE FILE_PATH="coverage/GZBAPP$task.coverage" NAME="task Coverage Results" MODIFIED="1579522965903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/app" />
+    <SUITE FILE_PATH="coverage/GZBAPP$task.coverage" NAME="task Coverage Results" MODIFIED="1580054483508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/app" />
     <SUITE FILE_PATH="coverage/GZBAPP$appiumConfig.coverage" NAME="appiumConfig Coverage Results" MODIFIED="1579241399480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/config" />
     <SUITE FILE_PATH="coverage/GZBAPP$pytest_for_test_video_TestTXTS_test_txts.coverage" NAME="pytest for test_video.TestTXTS.test_txts Coverage Results" MODIFIED="1577991487285" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/app" />
     <SUITE FILE_PATH="coverage/GZBAPP$1.coverage" NAME="1 Coverage Results" MODIFIED="1579351162641" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/app" />
@@ -27,73 +45,15 @@
     <SUITE FILE_PATH="coverage/GZBAPP$test_openchrome1.coverage" NAME="test_openchrome1 Coverage Results" MODIFIED="1578232556121" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/app" />
     <SUITE FILE_PATH="coverage/GZBAPP$openchrome.coverage" NAME="openchrome Coverage Results" MODIFIED="1578015188744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/app" />
     <SUITE FILE_PATH="coverage/GZBAPP$listener.coverage" NAME="listener Coverage Results" MODIFIED="1579275309422" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/app" />
-    <SUITE FILE_PATH="coverage/GZBAPP$test_video.coverage" NAME="test_video Coverage Results" MODIFIED="1579363796077" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/app" />
+    <SUITE FILE_PATH="coverage/GZBAPP$test_video.coverage" NAME="test_video Coverage Results" MODIFIED="1579534946489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/app" />
     <SUITE FILE_PATH="coverage/GZBAPP$pytest_for_test_pushImage_TestTXTS_test_txts.coverage" NAME="pytest for test_pushImage.TestTXTS.test_txts Coverage Results" MODIFIED="1578015436731" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/app" />
     <SUITE FILE_PATH="coverage/GZBAPP$schedule.coverage" NAME="schedule Coverage Results" MODIFIED="1577527152958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common/utils" />
     <SUITE FILE_PATH="coverage/GZBAPP$pytest_for_test_pushImage_TestTXTS.coverage" NAME="pytest for test_pushImage.TestTXTS Coverage Results" MODIFIED="1578014190514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/app" />
     <SUITE FILE_PATH="coverage/GZBAPP$pytest_in_test_video_py.coverage" NAME="pytest in test_video.py Coverage Results" MODIFIED="1578211566615" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/app" />
-    <SUITE FILE_PATH="coverage/GZBAPP$text.coverage" NAME="text Coverage Results" MODIFIED="1579523983914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/app" />
+    <SUITE FILE_PATH="coverage/GZBAPP$text.coverage" NAME="text Coverage Results" MODIFIED="1580053581350" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/app" />
   </component>
   <component name="FavoritesManager">
     <favorites_list name="GZBAPP" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/app/task.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1475">
-              <caret line="63" column="34" lean-forward="true" selection-start-line="63" selection-start-column="34" selection-end-line="63" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/utils/listener.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/test_pushImage.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="196" column="38" lean-forward="true" selection-start-line="196" selection-start-column="38" selection-end-line="196" selection-end-column="38" />
-              <folding>
-                <element signature="e#37#46#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/text.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/stop.bat">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -103,40 +63,6 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>PRESS</find>
-      <find>find_elements_by_accessibility_id</find>
-      <find>TouchAction</find>
-      <find>appdriver</find>
-      <find>By.id: com.jiahe.gzb:id/image</find>
-      <find>2019-07-15 00:56:11</find>
-      <find>TextTestRunner</find>
-      <find>url</find>
-      <find>type</find>
-      <find>multiSelectedMsg</find>
-      <find>sendshortvideo</find>
-      <find>‘</find>
-      <find>sendPic</find>
-      <find>192</find>
-      <find>port</find>
-      <find>handle_disconnected</find>
-      <find>ActionUserBot</find>
-      <find>OptionParser</find>
-      <find>xml</find>
-      <find>makeMessage</find>
-      <find>html</find>
-      <find>make_message</find>
-      <find>while</find>
-      <find>blackCount</find>
-      <find>node</find>
-      <find>send_next_time</find>
-      <find>fileName</find>
-      <find>join</find>
-      <find>percentage</find>
-      <find>writeTxt</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -145,190 +71,37 @@
       </map>
     </option>
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/common/utils/chatAssert.py" />
-        <option value="$PROJECT_DIR$/common/utils/selectedMem" />
-        <option value="$PROJECT_DIR$/common/utils/chat.py" />
-        <option value="$PROJECT_DIR$/common/utils/selectedMem.py" />
-        <option value="$PROJECT_DIR$/src/chat/test_chatinGroup.py" />
-        <option value="$PROJECT_DIR$/common/utils/removeMsg.py" />
-        <option value="$PROJECT_DIR$/common/utils/relay.py" />
-        <option value="$PROJECT_DIR$/src/chat/test_group.py" />
-        <option value="$PROJECT_DIR$/src/app/ImagePush.py" />
-        <option value="$PROJECT_DIR$/src/app/pushImage.py" />
-        <option value="$PROJECT_DIR$/common/utils/openTab.py" />
-        <option value="$PROJECT_DIR$/common/utils/group.py" />
-        <option value="$PROJECT_DIR$/src/chat/test_chat.py" />
-        <option value="$PROJECT_DIR$/test_pushImage.spec" />
-        <option value="$PROJECT_DIR$/src/call/call.py" />
-        <option value="$PROJECT_DIR$/common/utils/schedule.py" />
-        <option value="$PROJECT_DIR$/common/utils/1.py" />
-        <option value="$PROJECT_DIR$/common/gobalvar.py" />
-        <option value="$PROJECT_DIR$/common/utils/adbUtils.py" />
-        <option value="$PROJECT_DIR$/common/utils/zipUtils.py" />
-        <option value="$PROJECT_DIR$/src/app/openchrome.py" />
-        <option value="$PROJECT_DIR$/src/app/other.py" />
-        <option value="$PROJECT_DIR$/common/utils/imageAssert.py" />
-        <option value="$USER_HOME$/Desktop/test_openchrome1.py" />
-        <option value="$PROJECT_DIR$/src/app/test_openchrome1.py" />
-        <option value="$PROJECT_DIR$/src/app/test_openchrome.py" />
-        <option value="$PROJECT_DIR$/config/appiumConfig.py" />
-        <option value="$PROJECT_DIR$/common/utils/login_xf.py" />
-        <option value="$PROJECT_DIR$/config/seleniumConfig.py" />
-        <option value="$PROJECT_DIR$/src/app/20200116.txt" />
-        <option value="$PROJECT_DIR$/src/app/20200117.txt" />
-        <option value="$PROJECT_DIR$/src/app/start.bat" />
-        <option value="$PROJECT_DIR$/src/app/20200118.txt" />
-        <option value="$PROJECT_DIR$/src/app/1.py" />
-        <option value="$PROJECT_DIR$/src/app/log20200118.txt" />
-        <option value="$PROJECT_DIR$/src/app/log/20200118.txt" />
-        <option value="$PROJECT_DIR$/src/app/log/kadun_report_20200119.txt" />
-        <option value="$PROJECT_DIR$/src/app/log/kadun_log_20200119.txt" />
-        <option value="$PROJECT_DIR$/src/app/log/black_screen_log_20200119.txt" />
-        <option value="$PROJECT_DIR$/src/app/log/black_screen_report_20200119.txt" />
-        <option value="$PROJECT_DIR$/src/app/listener.py" />
-        <option value="$PROJECT_DIR$/common/utils/mailwithzip.py" />
-        <option value="$PROJECT_DIR$/src/app/text.py" />
-        <option value="$PROJECT_DIR$/common/utils/openApp.py" />
-        <option value="$PROJECT_DIR$/src/app/log/kadun_report_20200120.txt" />
-        <option value="$PROJECT_DIR$/src/app/log/black_screen_report_20200120.txt" />
-        <option value="$PROJECT_DIR$/common/utils/mailUtil.py" />
-        <option value="$PROJECT_DIR$/src/app/test_video.py" />
-        <option value="$PROJECT_DIR$/src/app/test_pushImage.py" />
-        <option value="$PROJECT_DIR$/src/app/task.py" />
-        <option value="$PROJECT_DIR$/common/utils/listener.py" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="112" />
-    <option name="y" value="35" />
-    <option name="width" value="1378" />
-    <option name="height" value="852" />
-  </component>
+  <component name="ProjectId" id="1WxyCgRQq3vehnl4FV6B1L015Vp" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="GZBAPP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GZBAPP" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GZBAPP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GZBAPP" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GZBAPP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GZBAPP" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GZBAPP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GZBAPP" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="xmpp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GZBAPP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GZBAPP" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GZBAPP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GZBAPP" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GZBAPP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GZBAPP" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GZBAPP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GZBAPP" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="log" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GZBAPP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GZBAPP" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="login" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/app" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\GZBAPP\src\app" />
+      <recent name="D:\GZBAPP\src" />
+      <recent name="D:\GZBAPP\config" />
+      <recent name="$PROJECT_DIR$/src/app" />
+      <recent name="$PROJECT_DIR$/common/utils" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\GZBAPP\src\app" />
+      <recent name="D:\GZBAPP\config" />
       <recent name="D:\GZBAPP\src\app\log" />
       <recent name="D:\GZBAPP\source" />
       <recent name="$PROJECT_DIR$/src/app" />
-      <recent name="$PROJECT_DIR$/source" />
-      <recent name="$PROJECT_DIR$/common/utils" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/app" />
-      <recent name="$PROJECT_DIR$/common/utils" />
-      <recent name="$PROJECT_DIR$/src/chat" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Python.test_pushImage">
-    <configuration name="1" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="GZBAPP" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/app" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/app/1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.test_videoNew">
     <configuration name="chat" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="GZBAPP" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -395,28 +168,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="listener" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="GZBAPP" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/app" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/app/listener.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="login" type="PythonConfigurationType" factoryName="Python">
       <module name="GZBAPP" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -439,28 +190,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="mailwithzip" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="GZBAPP" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/common/utils" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/utils/mailwithzip.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="open" type="PythonConfigurationType" factoryName="Python">
       <module name="GZBAPP" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -475,6 +204,27 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/utils/openApp.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="stop" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="GZBAPP" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/app" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/app/stop.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -527,6 +277,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test_pushImageNew" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="GZBAPP" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\work\AppData\Local\Programs\Python\Python36\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/app/" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/app/test_pushImageNew.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="test_video" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="GZBAPP" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -549,20 +320,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="text" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test_videoNew" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="GZBAPP" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="C:\Users\work\AppData\Local\Programs\Python\Python36\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/app" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/app/text.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/app/test_videoNew.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -591,7 +361,9 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.test_videoNew" />
       <item itemvalue="Python.test_video" />
+      <item itemvalue="Python.test_pushImageNew" />
       <item itemvalue="Python.test_pushImage" />
       <item itemvalue="Python.chat" />
       <item itemvalue="Python.checkList" />
@@ -599,18 +371,12 @@
       <item itemvalue="Python.login" />
       <item itemvalue="Python.open" />
       <item itemvalue="Python.task" />
-      <item itemvalue="Python.listener" />
-      <item itemvalue="Python.text" />
-      <item itemvalue="Python.1" />
-      <item itemvalue="Python.mailwithzip" />
+      <item itemvalue="Python.stop" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.text" />
+        <item itemvalue="Python.stop" />
         <item itemvalue="Python.task" />
-        <item itemvalue="Python.mailwithzip" />
-        <item itemvalue="Python.1" />
-        <item itemvalue="Python.listener" />
       </list>
     </recent_temporary>
   </component>
@@ -639,7 +405,8 @@
       <workItem from="1579066242117" duration="21230000" />
       <workItem from="1579264024123" duration="752000" />
       <workItem from="1579264787674" duration="76801000" />
-      <workItem from="1579522829888" duration="3547000" />
+      <workItem from="1579522829888" duration="12928000" />
+      <workItem from="1579568426250" duration="35628000" />
     </task>
     <task id="LOCAL-00001" summary="* 优化项目目录&#10;* 修改自动化报告样式&#10;* 调整报告标题及增加测试人员属性">
       <created>1552833393334</created>
@@ -732,43 +499,18 @@
       <option name="project" value="LOCAL" />
       <updated>1579526278648</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="优化每日发送邮件">
+      <created>1579526568855</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1579526568855</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="pytest_in_test_openchrome_py - 2020.01.10 at 13h 53m 47s.xml">
-      <configuration name="pytest in test_openchrome.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_test_openchrome_py - 2020.01.10 at 14h 02m 08s.xml">
-      <configuration name="pytest in test_openchrome.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_test_openchrome_py - 2020.01.10 at 16h 42m 26s.xml">
-      <configuration name="pytest in test_openchrome.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_test_openchrome_py - 2020.01.10 at 16h 53m 27s.xml">
-      <configuration name="pytest in test_openchrome.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_test_openchrome_py - 2020.01.10 at 17h 01m 36s.xml">
-      <configuration name="pytest in test_openchrome.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_test_openchrome_py - 2020.01.10 at 22h 21m 39s.xml">
-      <configuration name="pytest in test_openchrome.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_test_openchrome_py - 2020.01.15 at 13h 48m 13s.xml">
-      <configuration name="pytest in test_openchrome.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_test_openchrome_py - 2020.01.15 at 13h 55m 04s.xml">
-      <configuration name="pytest in test_openchrome.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_test_openchrome_py - 2020.01.15 at 15h 41m 52s.xml">
-      <configuration name="pytest in test_openchrome.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_test_openchrome_py - 2020.01.16 at 17h 47m 02s.xml">
-      <configuration name="pytest in test_openchrome.py" configurationId="tests" />
-    </history-entry>
-  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="287891000" />
+    <option name="totallyTimeSpent" value="332900000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -778,57 +520,6 @@
       <are-packages-shown value="true" />
       <is-autoscroll-to-source value="true" />
     </todo-panel>
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <layout>
-      <window_info active="true" content_ui="combo" x="796" y="224" width="306" height="551" id="Project" order="0" sideWeight="0.49543378" visible="true" weight="0.20726173" />
-      <window_info id="Structure" order="1" sideWeight="0.5034965" side_tool="true" weight="0.16181915" />
-      <window_info id="Favorites" order="2" sideWeight="0.5045662" side_tool="true" weight="0.2639405" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.37540984" />
-      <window_info anchor="bottom" x="15" y="347" width="1891" height="322" id="Run" order="2" sideWeight="0.4976203" visible="true" weight="0.25245902" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4997356" weight="0.28199565" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32614556" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4976203" weight="0.32614556" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.23934427" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5023797" side_tool="true" weight="0.36830103" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.3167116" />
-      <window_info anchor="bottom" id="Thumbnails" order="11" weight="0.3295325" />
-      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="SciView" order="4" />
-    </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" x="796" y="224" width="306" height="551" id="Project" order="0" sideWeight="0.49543378" weight="0.20726173" />
-      <window_info id="Structure" order="1" sideWeight="0.5034965" side_tool="true" weight="0.16181915" />
-      <window_info id="Favorites" order="2" sideWeight="0.5045662" side_tool="true" weight="0.2639405" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.37540984" />
-      <window_info active="true" anchor="bottom" x="15" y="347" width="1891" height="322" id="Run" order="2" sideWeight="0.4976203" visible="true" weight="0.552459" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4997356" weight="0.28199565" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32614556" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4976203" weight="0.32614556" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.25606468" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5023797" side_tool="true" weight="0.36830103" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.3167116" />
-      <window_info anchor="bottom" id="Thumbnails" order="11" weight="0.3295325" />
-      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="SciView" order="4" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -849,20 +540,7 @@
         <entry key="MAIN">
           <value>
             <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-              <option name="COLUMN_ORDER">
-                <list>
-                  <option value="0" />
-                  <option value="1" />
-                  <option value="2" />
-                  <option value="3" />
-                </list>
-              </option>
+              <option name="COLUMN_ORDER" />
             </State>
           </value>
         </entry>
@@ -894,6 +572,70 @@
     <MESSAGE value="优化每日发送邮件" />
     <option name="LAST_COMMIT_MESSAGE" value="优化每日发送邮件" />
   </component>
+  <component name="WindowStateProjectService">
+    <state x="390" y="156" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584194236603">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="390" y="156" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584194236603" />
+    <state x="463" y="120" key="FileChooserDialogImpl" timestamp="1580105494335">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1580105494335" />
+    <state width="1899" height="295" key="GridCell.Tab.0.bottom" timestamp="1584194859232">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1345" height="219" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584058498250" />
+    <state width="1515" height="204" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581253066591" />
+    <state width="1579" height="239" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1584071211604" />
+    <state width="1899" height="295" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584194859232" />
+    <state width="1899" height="295" key="GridCell.Tab.0.center" timestamp="1584194859232">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1345" height="219" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1584058498250" />
+    <state width="1515" height="204" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1581253066591" />
+    <state width="1579" height="239" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1584071211604" />
+    <state width="1899" height="295" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584194859232" />
+    <state width="1899" height="295" key="GridCell.Tab.0.left" timestamp="1584194859232">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1345" height="219" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1584058498250" />
+    <state width="1515" height="204" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1581253066591" />
+    <state width="1579" height="239" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1584071211604" />
+    <state width="1899" height="295" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584194859232" />
+    <state width="1899" height="295" key="GridCell.Tab.0.right" timestamp="1584194859232">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1345" height="219" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1584058498250" />
+    <state width="1515" height="204" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1581253066591" />
+    <state width="1579" height="239" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1584071211604" />
+    <state width="1899" height="295" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584194859232" />
+    <state width="1899" height="332" key="GridCell.Tab.1.bottom" timestamp="1584192113951">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="332" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584192113951" />
+    <state width="1899" height="332" key="GridCell.Tab.1.center" timestamp="1584192113951">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="332" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584192113951" />
+    <state width="1899" height="332" key="GridCell.Tab.1.left" timestamp="1584192113951">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="332" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584192113951" />
+    <state width="1899" height="332" key="GridCell.Tab.1.right" timestamp="1584192113951">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="332" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584192113951" />
+    <state x="259" y="10" key="SettingsEditor" timestamp="1583680627469">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="184" y="7" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1582176227377" />
+    <state x="259" y="10" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1583680627469" />
+    <state x="517" y="269" key="com.intellij.ide.util.TipDialog" timestamp="1583682276595">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="368" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1582186330048" />
+    <state x="517" y="269" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583682276595" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -917,6 +659,9 @@
         <watch expression="driver_command" language="Python" />
         <watch expression="lasttext.text" language="Python" />
         <watch expression="textele.length" language="Python" />
+      </configuration>
+      <configuration name="PythonConfigurationType">
+        <watch expression="configData['caps']" />
       </configuration>
     </watches-manager>
   </component>
@@ -958,316 +703,5 @@
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/chat/test_chat.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="834">
-          <caret line="144" column="63" lean-forward="true" selection-start-line="144" selection-start-column="63" selection-end-line="144" selection-end-column="63" />
-          <folding>
-            <element signature="e#37#46#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/utils/adbUtils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/utils/zipUtils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-72">
-          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python36/site-packages/selenium/webdriver/remote/webdriver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19375">
-          <caret line="788" column="8" selection-start-line="788" selection-start-column="8" selection-end-line="788" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python36/site-packages/PIL/Image.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="2769" selection-start-line="2769" selection-end-line="2769" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/test_video1.py" />
-    <entry file="file://$USER_HOME$/Desktop/test_openchrome1.py" />
-    <entry file="file://$PROJECT_DIR$/common/utils/imageAssert.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2375">
-          <caret line="100" column="39" selection-start-line="100" selection-start-column="39" selection-end-line="100" selection-end-column="39" />
-          <folding>
-            <element signature="e#38#47#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/test_openchrome.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="e#16#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Appium/resources/app/node_modules/appium/lib/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
-          <folding>
-            <element signature="e#39#87#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/gobalvar.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/appiumConfig.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="17" column="56" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/other.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="70" selection-start-line="70" selection-end-line="70" />
-          <folding>
-            <element signature="e#37#46#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/seleniumConfig.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/typing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="2323" column="8" selection-start-line="2323" selection-start-column="8" selection-end-line="2323" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="310" selection-start-line="310" selection-end-line="310" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/start.bat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/_pytest/python.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="165" selection-start-line="165" selection-end-line="165" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/20200117.txt" />
-    <entry file="file://$PROJECT_DIR$/src/app/20200116.txt" />
-    <entry file="file://$PROJECT_DIR$/src/app/log20200118.txt" />
-    <entry file="file://$PROJECT_DIR$/src/app/log_20200118.txt" />
-    <entry file="file://$USER_HOME$/Documents/Tencent Files/1021997115/FileRecv/task.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/1.py" />
-    <entry file="file://$PROJECT_DIR$/src/app/log/20200118.txt" />
-    <entry file="file://$PROJECT_DIR$/src/app/log/black_screen_log_20200118.txt" />
-    <entry file="file://$PROJECT_DIR$/src/app/log/log_20200118.txt" />
-    <entry file="file://$PROJECT_DIR$/src/app/log/kadun_20200118.txt" />
-    <entry file="file://$USER_HOME$/Documents/Tencent Files/1021997115/FileRecv/test_video.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1875" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/log/kadun_report20200118.txt" />
-    <entry file="file://$PROJECT_DIR$/src/app/log/kadun_log_20200118.txt" />
-    <entry file="file://$USER_HOME$/Documents/Tencent Files/1021997115/FileRecv/task(1).py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="11" column="11" lean-forward="true" selection-end-line="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/log/kadun_log_20200119.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/log/kadun_report_20200119.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/log/black_screen_log_20200119.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-19852" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/utils/mailwithzip.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
-          <folding>
-            <element signature="e#15#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/log/black_screen_report_20200119.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/utils/openApp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-75">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/log/black_screen_log_20200120.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-42354" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/utils/login_xf.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/utils/login.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/log/kadun_report_20200120.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/listener.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/log/black_screen_report_20200120.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/test_video.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="59" column="22" selection-start-line="59" selection-start-column="22" selection-end-line="59" selection-end-column="22" />
-          <folding>
-            <element signature="e#37#46#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/utils/mailUtil.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="41">
-          <caret line="23" column="45" lean-forward="true" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/text.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/stop.bat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/test_pushImage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="196" column="38" lean-forward="true" selection-start-line="196" selection-start-column="38" selection-end-line="196" selection-end-column="38" />
-          <folding>
-            <element signature="e#37#46#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/utils/listener.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/task.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1475">
-          <caret line="63" column="34" lean-forward="true" selection-start-line="63" selection-start-column="34" selection-end-line="63" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>

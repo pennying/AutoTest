@@ -10,10 +10,9 @@ driver = webdriver.Chrome()
 
 # 打开chrome浏览器
 driver = webdriver.Chrome(chrome_options=option)
-# driver.get("http://rhtxav.119.gov.cn:8091/kdspzygl/#/login")
 
 i = 0
-while i < 30:
+while i < 150:
 
     openPage = 'window.open("http://rhtxav.119.gov.cn:8091/kdspzygl/#/login")'
 
@@ -24,12 +23,24 @@ while i < 30:
 
     time.sleep(2)
     driver.find_elements_by_tag_name('input')[0].send_keys('jiami2')
+
     driver.find_elements_by_tag_name('input')[1].send_keys('123456')
     driver.find_element_by_id('keybtn').click()
 
     time.sleep(2)
     driver.find_elements_by_class_name('kc-menu-item')[0].click()
-    time.sleep(2)
-    driver.find_elements_by_class_name('kc-button--text')[0].click()
+
+    page = 1
+    video = 0
+
+    if video == 10:
+        page += 1
+        driver.find_elements_by_class_name('number')[page].click()
+        time.sleep(2)
+        video = 0
+
+    driver.find_elements_by_class_name('kc-button--text')[2*video].click()
+    video += 1
+
     i += 1
 

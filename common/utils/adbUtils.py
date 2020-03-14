@@ -35,8 +35,8 @@ class AdbUtils(object):
 
         l = self.getSize(driver)
         x1 = int(l[0] * 0.5)  # x坐标
-        y1 = int(l[1] * 1.0)  # 起始y坐标
-        y2 = int(l[1] * 0.75)  # 终点y坐标
+        y1 = int(l[1] * 0.75)  # 起始y坐标
+        y2 = int(l[1] * 0.25)  # 终点y坐标
         self.swipe(driver, x1, y1, x1, y2)
 
     # 屏幕向下滑动
@@ -44,8 +44,8 @@ class AdbUtils(object):
 
         l = self.getSize(driver)
         x1 = int(l[0] * 0.5)  # x坐标
-        y1 = int(l[1] * 0.00)  # 起始y坐标
-        y2 = int(l[1] * 0.75)  # 终点y坐标
+        y1 = int(l[1] * 0.75)  # 起始y坐标
+        y2 = int(l[1] * 0.00)  # 终点y坐标
         adbUtils.swipe(driver, x1, y1, x1, y2)
 
     # 屏幕向下滑动

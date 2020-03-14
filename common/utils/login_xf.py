@@ -22,8 +22,10 @@ class LoginUtil(object):
         print('跳过一键保活OK')
 
         # 跳过更新
-        # driver.find_element('id', 'md_buttonDefaultNegative').click()
-        # print('跳过更新OK')
+        ele = driver.find_elements('id', 'md_buttonDefaultNegative')
+        if len(ele) > 0:
+            driver.find_element('id', 'md_buttonDefaultNegative').click()
+            print('跳过更新OK')
 
 
 loginUtil = LoginUtil()

@@ -8,7 +8,7 @@ import allure
 import pytest
 from datetime import datetime, timedelta
 
-from config.seleniumConfig import DriverClient
+from config.seleniumConfigNew import DriverClient
 from common.utils.login_xf import loginUtil
 from common.utils.openApp import openAppUtil
 from common.utils.imageAssert import ImageAssert
@@ -24,22 +24,22 @@ class TestTXTS:
     # 驱动
     def setup(self):
         warnings.simplefilter("ignore", ResourceWarning)
-        self.driver = DriverClient().getDriver(nosingleton=True)
 
     # 登录
-    def login(self):
+    def login(self, configData):
+        self.driver = DriverClient().getDriver(configData['caps'])
         openAppUtil.open_app(self.driver)
-        loginUtil.login(self.driver)
+        loginUtil.login(self.driver, configData['login']['user'], configData['login']['password'])
         time.sleep(5)
 
     # 图像推送
     @allure.story('测试图像推送')
-    def test_txts(self):
+    def test_txts(self, configData):
 
         """
         计算查看高清图像时出现黑屏的概率
         """
-        self.login()
+        self.login(configData)
         self.driver.find_element('xpath', "//*[@text='图像推送']").click()
         time.sleep(3)
         self.driver.find_element('xpath', "//*[@text='内部测试（勿删）']").click()
@@ -218,11 +218,11 @@ class TestTXTS:
         f_write.close()
 
     def teardown(self):
-        listener.listener('black_screen_report_', 'test_pushImage.py', 800)
+        listener.listener('black_screen_report_', 'test_pushImageNew.py', 800)
         print('finished')
 
 
 if __name__ == '__main__':
-    os.system('start.bat')
-    pytest.main(['-s', '-q', 'test_pushImage.py', '--clean-alluredir', '--alluredir', 'report'])
+    os.system('start1.bat')
+    pytest.main(['-s', '-q', 'test_pushImageNew.py', '--clean-alluredir', '--alluredir', 'report', '--configFile=config1'])
     os.system('allure generate report -o /html --clean')
